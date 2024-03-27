@@ -36,7 +36,7 @@ namespace Content.Shared.Humanoid
                     return Loc.GetString("namepreset-firstdashfirst",
                         ("first1", GetFirstName(speciesProto, gender)), ("first2", GetFirstName(speciesProto, gender)));
                 case SpeciesNaming.XnoY:
-                    return Loc.GetString("namepreset-firstdashnodashlast",
+                    return Loc.GetString("namepreset-first-no-last",
                         ("first", GetFirstName(speciesProto, gender)), ("last", GetLastName(speciesProto, gender)));
                 case SpeciesNaming.FirstLast:
                 default:
