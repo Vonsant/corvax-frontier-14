@@ -11,7 +11,7 @@
   femaleFirstNames: names_oni_female
   maleLastNames: names_oni_location # Corvax-LastnameGender
   femaleLastNames: names_oni_location # Corvax-LastnameGender
-  naming: XnoY
+  naming: FirstDashNoDashLast
 
 - type: markingPoints
   id: MobOniMarkingLimits
