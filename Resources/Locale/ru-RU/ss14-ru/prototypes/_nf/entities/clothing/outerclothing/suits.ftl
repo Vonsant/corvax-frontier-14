@@ -1,2 +1,2 @@
-ent-ClothingOuterSuitBombSyndie = syndicate bomb suit
+ent-ClothingOuterSuitBombSyndie = сапёрный костюм синдиката
     .desc = { ent-ClothingOuterSuitBomb.desc }
