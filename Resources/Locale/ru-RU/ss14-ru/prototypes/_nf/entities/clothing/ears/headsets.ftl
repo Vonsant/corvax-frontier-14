@@ -1,5 +1,5 @@
 ent-ClothingHeadsetSecuritySafe = { ent-ClothingHeadsetSecurity }
-    .suffix = Безопасная
+    .suffix = ДСБФ
     .desc = { ent-ClothingHeadsetSecurity.desc }
 ent-ClothingHeadsetMailCarrier = гарнитура почтальона
     .desc = Гарнитура для работника почтовой службы.
