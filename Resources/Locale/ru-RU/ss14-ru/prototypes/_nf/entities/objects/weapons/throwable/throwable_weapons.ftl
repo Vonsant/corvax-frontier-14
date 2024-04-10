@@ -1,4 +1,4 @@
-ent-DartSindicateImpedrezene = syndicate impedrezene dart
-    .desc = Try not to prick yourself.
-ent-DartSindicateTranquilizer = syndicate tranquilizer dart
+ent-DartSindicateImpedrezene = импедрезиновый дротик
+    .desc = Не уколитесь.
+ent-DartSindicateTranquilizer = транквилизирующий дротик
     .desc = { ent-DartSindicateImpedrezene.desc }
