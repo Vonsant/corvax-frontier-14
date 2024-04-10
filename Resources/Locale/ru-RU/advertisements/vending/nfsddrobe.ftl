@@ -1,5 +1,5 @@
-advertisement-nfsddrobe-1 = LookingTo'Cop'AFreshLook?
-advertisement-nfsddrobe-2 = FromBootstoCaps,WeGotYourBack
-advertisement-nfsddrobe-3 = EnforceFashionWithArrestingAttire
-advertisement-nfsddrobe-4 = ServeJustice,LookFabulous!
-advertisement-nfsddrobe-5 = Nowyoucanwearyourbrownpantstoo
+advertisement-nfsddrobe-1 = В розыске актуального лука?
+advertisement-nfsddrobe-2 = Мы прикроем вашу спину!
+advertisement-nfsddrobe-3 = Арестовывай со стилем!
+advertisement-nfsddrobe-4 = Служи Закону, будь на стиле!
+advertisement-nfsddrobe-5 = Теперь и у тебя будут модные серые штаны!
