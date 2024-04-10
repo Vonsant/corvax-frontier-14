@@ -26,5 +26,5 @@ ent-AirlockExternalGlassShuttleTransit = { ent-AirlockGlassShuttle }
     .suffix = Внешний, Публичный, Стеклянный, Стыковочный
     .desc = { ent-AirlockGlassShuttle.desc }
 ent-AirlockNFSDGlassLocked = { ent-AirlockNFSDGlass }
-    .suffix = NFSD, Locked
+    .suffix = ДСБФ, Закрыт
     .desc = { ent-AirlockNFSDGlass.desc }
