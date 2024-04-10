@@ -1,5 +1,5 @@
-ent-RubberStampBaseNF = generic rubber stamp
-    .desc = A rubber stamp for stamping important documents.
-ent-RubberStampSheriff = sheriff's rubber stamp
-    .suffix = DO NOT MAP
+ent-RubberStampBaseNF = печать
+    .desc = Печать из резины, для проставления печатей на важных документах.
+ent-RubberStampSheriff = печать шерифа
+    .suffix = НЕ МАППИТЬ
     .desc = { ent-RubberStampBaseNF.desc }
