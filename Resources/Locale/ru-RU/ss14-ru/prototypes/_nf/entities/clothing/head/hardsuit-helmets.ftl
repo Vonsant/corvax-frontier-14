@@ -20,3 +20,5 @@ ent-ClothingHeadHelmetHardsuitNfsdBrigmed = nfsd patrol hardsuit helmet
     .desc = Легкобронированный шлем патрульного скафандра.
 ent-ClothingHeadHelmetHardsuitNfsdSheriff = шлем скафандра шерифа ДСБФ
     .desc = Легкобронированный шлем патрульного скафандра.
+ent-ClothingHeadHelmetHardsuitNfsdExperimental = nfsd experimental hardsuit helmet
+    .desc = An experimental nfsd hardsuit helmet.

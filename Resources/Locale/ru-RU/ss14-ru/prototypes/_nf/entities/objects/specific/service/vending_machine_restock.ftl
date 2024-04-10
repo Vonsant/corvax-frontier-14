@@ -14,3 +14,7 @@ ent-VendingMachineRestockAutoTuneVend = набор пополнения МузВ
     .desc = Ящик с разнообразными музыкальными инструментами. Надпись на этикетке гласит "КОРОБКА ЗАЩИЩЕНА ОТ НЕСАНКЦИОНИРОВАННОГО ДОСТУПА, ЕЁ СОДЕРЖИМОЕ БУДЕТ УНИЧТОЖЕНА ПРИ ПОПЫТКЕ ВСКРЫТИЯ".
 ent-VendingMachineRestockPottedPlantVend = набор пополнения Трав-О-Маг
     .desc = Ящик, в котором хранятся различные растения. Надпись на этикетке гласит "КОРОБКА ЗАЩИЩЕНА ОТ НЕСАНКЦИОНИРОВАННОГО ДОСТУПА, ЕЁ СОДЕРЖИМОЕ БУДЕТ УНИЧТОЖЕНА ПРИ ПОПЫТКЕ ВСКРЫТИЯ".
+ent-VendingMachineRestockNFSDDrobe = NFSDDrobe restock box
+    .desc = nfsddrobe restock box - may explode on contact with appendages.
+ent-VendingMachineRestockNFSDTec = NFSDTec restock box
+    .desc = nfsdtec restock box - may unleash a singulo on contact with appendages

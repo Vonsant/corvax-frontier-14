@@ -4,3 +4,5 @@ ent-TilePrinterNF = Плиточник 5000
     .desc = Печатает напольные плитки.
 ent-SalvageTechfabNF = утилизационный техфаб
     .desc = Печатает снаряжение необходимое каждому утилизатору.
+ent-NFSDTechFab = nfsd techfab
+    .desc = Prints equipment for use by nfsd.
