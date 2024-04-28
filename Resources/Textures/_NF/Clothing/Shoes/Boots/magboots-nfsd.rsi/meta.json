@@ -1,7 +1,7 @@
 {
     "version": 1,
-    "license": "CC-BY-NC-SA-4.0",
-    "copyright": "Content created by GhostPrince for Frontier Server",
+    "license": "CC-BY-SA-3.0",
+    "copyright": "Resprite created by ugog",
     "size": {
         "x": 32,
         "y": 32
@@ -12,11 +12,11 @@
             "directions": 4
         },
         {
-            "name": "on-equipped-FEET",
+            "name": "equipped-FEET-reptilian",
             "directions": 4
         },
         {
-            "name": "equipped-FEET-reptilian",
+            "name": "on-equipped-FEET",
             "directions": 4
         },
         {
