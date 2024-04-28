@@ -1,4 +1,4 @@
-{
+
   "version": 1,
   "license": "CC-BY-SA-3.0",
   "copyright": "Drawn by Ubaser, resprited by fazan_saverg (842350861123452948) on discord.",
@@ -12,11 +12,11 @@
       "directions": 4
     },
     {
-      "name": "on-equipped-FEET",
+      "name": "equipped-FEET-reptilian",
       "directions": 4
     },
     {
-      "name": "equipped-FEET-reptilian",
+      "name": "on-equipped-FEET",
       "directions": 4
     },
     {
