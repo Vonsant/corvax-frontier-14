@@ -235,6 +235,22 @@ public sealed class ImpactEffectEvent : EntityEventArgs
     }
 }
 
+[Serializable, NetSerializable]
+public class AfterProjectileHitEvent : EntityEventArgs
+{
+    public EntityUid ProjectileId { get; set; }
+    public EntityUid TargetId { get; set; }
+    public bool ShouldPenetrate { get; set; }
+
+    public AfterProjectileHitEvent(EntityUid projectileId, EntityUid targetId, bool shouldPenetrate)
+    {
+        ProjectileId = projectileId;
+        TargetId = targetId;
+        ShouldPenetrate = shouldPenetrate;
+    }
+}
+
+
 /// <summary>
 /// Raised when an entity is just about to be hit with a projectile but can reflect it
 /// </summary>
