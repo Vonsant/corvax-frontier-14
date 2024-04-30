@@ -6,9 +6,7 @@
   requirements:
     - !type:DepartmentTimeRequirement
       department: Security
-      time: 21600 # 6 hrs
-    - !type:OverallPlaytimeRequirement
-      time: 36000 # Frontier - 10 hrs
+      time: 60
   startingGear: DetectiveNFGear
   icon: "JobIconDetective"
   supervisors: job-supervisors-bailiff

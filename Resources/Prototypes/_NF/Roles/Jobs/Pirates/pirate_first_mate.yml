@@ -6,7 +6,7 @@
   requirements:
     - !type:WhitelistRequirement
     - !type:OverallPlaytimeRequirement
-      time: 129600 # Frontier - 36 hours
+      time: 6000
   startingGear: NFPirateFirstMateGear
   canBeAntag: true
   alwaysUseSpawner: true

@@ -4,18 +4,8 @@
   description: job-description-hos
   playTimeTracker: JobHeadOfSecurity
   requirements:
-    - !type:WhitelistRequirement
     - !type:OverallPlaytimeRequirement
-      time: 129600 # Frontier - 36 hours
-    - !type:RoleTimeRequirement
-      role: JobSeniorOfficer
-      time: 43200 # Frontier - 12 hrs
-    - !type:RoleTimeRequirement
-      role: JobWarden
-      time: 43200 # Frontier - 12 hrs
-    - !type:DepartmentTimeRequirement
-      department: Security
-      time: 43200 # 12 hrs
+      time: 60
   weight: 10
   startingGear: SheriffGear
   alwaysUseSpawner: true

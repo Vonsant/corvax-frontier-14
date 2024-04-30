@@ -1,0 +1,55 @@
+- type: entity
+  name: ручка старшего инженера
+  parent: Pen
+  id: CePen
+  description: Много функциональная ручка! она может писать, заполнять, помечать, отмечать и много всего.
+  components:
+  - type: Sprite
+    sprite: _KD/Pens/ce_pen
+  - type: Item
+    sprite: _KD/Pens/ce_pen
+
+- type: entity
+  name: ручка главы службы безопастности
+  parent: Pen
+  id: HosPen
+  description: Можно и документ заполнить и в жопу комунить засунуть.
+  components:
+  - type: Sprite
+    sprite: _KD/Pens/hos_pen
+  - type: Item
+    sprite: _KD/Pens/hos_pen
+
+- type: entity
+  name: ручка глав врача
+  parent: Pen
+  id: CmoPen
+  description: Элегантная ручка, пахнет... наркотой?!.
+  components:
+  - type: Sprite
+    sprite: _KD/Pens/cmo_pen
+  - type: Item
+    sprite: _KD/Pens/cmo_pen
+
+- type: entity
+  name: ручка квартирмейстера
+  parent: Pen
+  id: QmPen
+  description: В твоей руке половина станционого бюджета.
+  components:
+  - type: Sprite
+    sprite: _KD/Pens/qm_pen
+  - type: Item
+    sprite: _KD/Pens/qm_pen
+
+- type: entity
+  name: ручка научного руководителя
+  parent: Pen
+  id: RdPen
+  description: Ручка сделана из чистейшей блюспейс материи.
+  components:
+  - type: Sprite
+    sprite: _KD/Pens/rd_pen
+  - type: Item
+    sprite: _KD/Pens/rd_pen
+

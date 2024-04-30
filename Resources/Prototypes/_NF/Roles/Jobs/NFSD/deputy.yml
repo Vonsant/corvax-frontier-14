@@ -5,10 +5,7 @@
   playTimeTracker: JobSecurityOfficer
   requirements:
     - !type:OverallPlaytimeRequirement
-      time: 43200 # Frontier - 12 hrs
-    - !type:DepartmentTimeRequirement
-      department: Security
-      time: 21600 # Frontier - 6 hrs
+      time: 60
   startingGear: DeputyGear
   icon: "JobIconSecurityOfficer" # Frontier
   supervisors: job-supervisors-sergeant

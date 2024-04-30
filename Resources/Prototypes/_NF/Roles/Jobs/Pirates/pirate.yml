@@ -5,7 +5,7 @@
   playTimeTracker: JobPirate
   requirements:
     - !type:OverallPlaytimeRequirement
-      time: 86400 # Frontier - 24 hours
+      time: 60
   startingGear: NFPirateGear
   alwaysUseSpawner: true
   canBeAntag: true

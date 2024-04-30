@@ -5,13 +5,7 @@
   playTimeTracker: JobSeniorOfficer
   requirements:
     - !type:OverallPlaytimeRequirement
-      time: 108000 # Frontier - 30 hours
-    - !type:RoleTimeRequirement
-      role: JobSecurityOfficer
-      time: 43200 # Frontier - 12 hrs
-    - !type:DepartmentTimeRequirement
-      department: Security
-      time: 32400 # 9 hrs
+      time: 60
   startingGear: SeniorOfficerGear
   icon: "JobIconSeniorOfficer" # Frontier
   supervisors: job-supervisors-bailiff
