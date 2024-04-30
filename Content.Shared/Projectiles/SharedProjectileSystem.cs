@@ -159,7 +159,7 @@ public abstract partial class SharedProjectileSystem : EntitySystem
     {
         args.Cancel("pacified-cannot-throw-embed");
     }
-}
+    
     /// <summary>
     /// Checks if the projectile is allowed to penetrate the target it hit.
     /// </summary>
