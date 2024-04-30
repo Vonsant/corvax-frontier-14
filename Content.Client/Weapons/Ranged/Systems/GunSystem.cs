@@ -185,6 +185,28 @@ public sealed partial class GunSystem : SharedGunSystem
     {
         userImpulse = true;
 
+        // Получение и модификация свойств снаряда на основе параметров оружия
+        foreach (var (ammoEntity, shootable) in ammo)
+        {
+            if (shootable is ProjectileComponent projectile && EntityManager.TryGetComponent<GunComponent>(gunUid, out var gunComp))
+            {
+                // Применение модификаторов проникающей способности
+                if (EntityManager.TryGetComponent<CanPenetrateComponent>(ammoEntity, out var penetration) &&
+                    gunComp.PenetrationModifier != null)
+                {
+                    penetration.PenetrationPower += gunComp.PenetrationModifier.Value;
+                }
+
+                // Применение модификатора урона
+                if (gunComp.DamageMultiplier != null)
+                {
+                    projectile.Damage *= gunComp.DamageMultiplier.Value;
+            }
+    
+                projectile.GunModifiersApplied = true;
+            }
+        }
+
         // Rather than splitting client / server for every ammo provider it's easier
         // to just delete the spawned entities. This is for programmer sanity despite the wasted perf.
         // This also means any ammo specific stuff can be grabbed as necessary.
