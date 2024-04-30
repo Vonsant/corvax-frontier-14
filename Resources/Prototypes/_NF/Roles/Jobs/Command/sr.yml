@@ -5,8 +5,7 @@
   playTimeTracker: JobHeadOfPersonnel
   requirements:
     - !type:OverallPlaytimeRequirement
-      time: 36000
-    - !type:WhitelistRequirement
+      time: 60
   weight: 20
   startingGear: SrGear
   alwaysUseSpawner: true

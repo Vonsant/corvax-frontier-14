@@ -5,13 +5,7 @@
   playTimeTracker: JobWarden
   requirements:
     - !type:OverallPlaytimeRequirement
-      time: 108000 # Frontier - 30 hours
-    - !type:RoleTimeRequirement
-      role: JobSeniorOfficer
-      time: 21600 # Frontier - 6 hrs
-    - !type:DepartmentTimeRequirement
-      department: Security
-      time: 32400 # 9 hrs
+      time: 60
   startingGear: BailiffGear
   icon: "JobIconWarden" # Frontier
   supervisors: job-supervisors-sheriff

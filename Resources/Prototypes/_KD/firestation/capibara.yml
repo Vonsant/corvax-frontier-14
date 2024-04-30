@@ -1,0 +1,59 @@
+- type: entity
+  save: false
+  name: Витя Текин (Капибара)
+  description: Просто капибара Витек
+  parent: SimpleMobBase
+  id: Capibara
+  components:
+  - type: Sprite
+    drawdepth: Mobs
+    sprite: FireStation/Mobs/Friendly/capibara.rsi
+    layers:
+    - map: ["enum.DamageStateVisualLayers.Base"]
+      state: capibara
+  - type: Physics
+  - type: Fixtures
+    fix1:
+      fixtures:
+      - shape:
+          !type:PhysShapeCircle
+          radius: 0.35
+        density: 30
+        mask:
+        - MobMask
+        layer:
+        - MobLayer
+  - type: Inventory
+    speciesId: dog
+    templateId: pet
+  - type: Strippable
+  - type: UserInterface
+    interfaces:
+    - key: enum.StrippingUiKey.Key
+      type: StrippableBoundUserInterface
+  - type: DamageStateVisuals
+    states:
+      Alive:
+        Base: capibara
+      Critical:
+        Base: capibara_dead
+      Dead:
+        Base: capibara_dead
+  - type: Appearance
+  - type: Butcherable
+    spawned:
+    - id: FoodMeat
+      amount: 2
+  - type: InteractionPopup
+    interactSuccessString: petting-success-dog
+    interactFailureString: petting-failure-generic
+    interactSuccessSound:
+      path: /Audio/Animals/small_dog_bark_happy.ogg
+  - type: Grammar
+    attributes:
+      gender: epicene
+  - type: SentienceTarget
+    flavorKind: station-event-random-sentience-flavor-corgi
+  - type: Puller
+  - type: MobPrice
+    price: 200

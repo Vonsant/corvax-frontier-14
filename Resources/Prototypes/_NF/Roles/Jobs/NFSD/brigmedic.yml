@@ -4,11 +4,8 @@
   description: job-description-brigmedic
   playTimeTracker: JobBrigmedic
   requirements:
-    - !type:DepartmentTimeRequirement
-      department: Security
-      time: 21600 # 6 hrs
     - !type:OverallPlaytimeRequirement
-      time: 36000 # Frontier - 10 hrs
+      time: 60
   startingGear: BrigmedicGear
   icon: "JobIconBrigmedic" # Frontier
   supervisors: job-supervisors-bailiff
