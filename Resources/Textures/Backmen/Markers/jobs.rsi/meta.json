@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "taken from the game, jobicon by kirillcas(github)",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "jobicon"
+    },
+    {
+      "name": "centcom_operator"
+    },
+    {
+      "name": "green"
+    },
+    {
+      "name": "centcom_official"
+    },
+    {
+      "name": "Delivery"
+    },
+    {
+      "name": "centcom_head_of_securiry"
+    },
+    {
+      "name": "centcom_intern"
+    },
+    {
+      "name": "prisoner"
+    },
+    {
+      "name": "brigmedic"
+    },
+    {
+      "name": "roboticist"
+    }
+  ]
+}

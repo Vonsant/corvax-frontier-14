@@ -1,0 +1,18 @@
+{
+    "version": 1,
+    "license": "CC BY-SA",
+    "copyright": "By FireTeam. Author - Любознательный and Shrek",
+    "size": {
+        "x": 32,
+        "y": 32
+    },
+    "states": [
+        {
+            "name": "standing",
+            "directions": 4
+        },
+        {
+            "name": "dead"
+        }
+    ]
+}

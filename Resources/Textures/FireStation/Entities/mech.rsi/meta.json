@@ -1,0 +1,32 @@
+{
+    "version": 1,
+    "license": "CC BY-SA",
+    "copyright": "By FireTeam",
+    "size": {
+        "x": 32,
+        "y": 32
+    },
+    "states": [
+        {
+            "name": "marauder",
+            "directions": 4
+        },
+        {
+            "name": "marauder-broken"
+        },
+        {
+            "name": "odysseus",
+            "directions": 4
+        },
+        {
+            "name": "odysseus-broken"
+        },
+        {
+            "name": "reticence",
+            "directions": 4
+        },
+        {
+            "name": "reticence-broken"
+        }
+    ]
+}

@@ -1,0 +1,41 @@
+{
+    "version": 1,
+    "size": {
+        "x": 32,
+        "y": 32
+    },
+    "copyright": "By FireTeam Spriters",
+    "license": "CC-BY-SA-3.0",
+    "states": [
+        {
+            "name": "generic"
+        },
+        {
+            "name": "generic_door"
+        },
+        {
+            "name": "generic_open"
+        },
+        {
+            "name": "sec_scp"
+        },
+        {
+            "name": "sec_scp_door"
+        },
+        {
+            "name": "sec_scp_open"
+        },
+        {
+            "name": "science_scp"
+        },
+        {
+            "name": "science_scp_door"
+        },
+        {
+            "name": "science_scp_open"
+        },
+        {
+            "name": "welded"
+        }
+    ]
+}
