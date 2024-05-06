@@ -10,7 +10,7 @@
 #
 - type: vessel
   id: Pulse
-  name: NM Пульс
+  name: NM Pulse
   description: Малогабаритный медицинский шаттл. Рекомендованный состав команды 1-2 человека.
   price: 20500
   category: Small

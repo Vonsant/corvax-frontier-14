@@ -28,6 +28,9 @@
         reagents:
           - ReagentId: THC
             Quantity: 20
+  - type: StaticPrice
+    price: 50
+
 
 - type: entity
   id: Blunt
@@ -59,3 +62,6 @@
         reagents:
           - ReagentId: THC
             Quantity: 20
+  - type: StaticPrice
+    price: 50
+

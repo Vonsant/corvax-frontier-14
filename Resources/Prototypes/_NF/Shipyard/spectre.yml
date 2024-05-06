@@ -1,6 +1,6 @@
 - type: vessel
   id: Spectre
-  name: NSS Спектр
+  name: NSS Spectre
   description: Крупногабаритный научный шаттл. Рекомендованный состав команды 4-5 человек.
   price: 195000
   category: Large
@@ -9,7 +9,7 @@
 
 - type: gameMap
   id: Spectre
-  mapName: 'NSSSpectre'
+  mapName: 'NSS Spectre'
   mapPath: /Maps/_NF/Shuttles/spectre.yml
   minPlayers: 0
   stations:

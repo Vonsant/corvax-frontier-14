@@ -10,7 +10,7 @@
 #
 - type: vessel
   id: Bulker
-  name: KL Балкер
+  name: KL Bulker
   description: Среднегабаритный добывающий шаттл. Рекомендуемый размер команды 2-4 человека.
   price: 39750 #29751 before the +15% (4462) 
   category: Medium

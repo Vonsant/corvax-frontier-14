@@ -1,6 +1,6 @@
 - type: vessel
   id: Condor
-  name: NR Кондор
+  name: NR Condor
   description: Среднегабаритный научно-инженерный шаттл. Рекомендованный размер команды 2-6 человек.
   price: 72890
   category: Medium

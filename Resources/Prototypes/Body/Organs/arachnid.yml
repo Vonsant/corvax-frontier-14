@@ -24,6 +24,8 @@
   - type: Tag
     tags:
       - Meat
+  - type: StaticPrice
+    price: 1000
 
 - type: entity
   id: OrganArachnidStomach

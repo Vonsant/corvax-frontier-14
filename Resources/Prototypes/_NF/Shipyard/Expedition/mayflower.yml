@@ -1,6 +1,6 @@
 - type: vessel
   id: Mayflower
-  name: USS Боярышник
+  name: USS Mayflower
   description: Среднегабаритный экспедиционный шаттл. Рекомендованный состав команды 2-4 человека.
   price: 50000
   category: Medium

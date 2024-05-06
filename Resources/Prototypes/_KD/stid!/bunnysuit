@@ -1,0 +1,13 @@
+_KD/strangebunnysuit.rsi
+
+- type: entity
+  parent: ClothingUniformSkirtBase
+  id: ClothingUniformBunny
+  name: костюм кролика
+  description: *Агресивные звуки кролика*
+  sponsorOnly: true
+  components:
+  - type: Sprite
+    sprite: _KD/strangebunnysuit.rsi
+  - type: Clothing
+    sprite: _KD/strangebunnysuit.rsi

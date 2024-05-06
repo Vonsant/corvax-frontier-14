@@ -10,7 +10,7 @@
 #
 - type: vessel
   id: Kestrel
-  name: NC Пустельга
+  name: NC Kestrel
   description: Среднегабаритный добывающий шаттл. Рекомендуемый состав команды 2-6 человек.
   price: 54000
   category: Medium

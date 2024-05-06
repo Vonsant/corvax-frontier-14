@@ -11,7 +11,7 @@
 
 - type: vessel
   id: harbormaster
-  name: NC Квадрон
+  name: NT Harbormaster
   description: Малогабаритный персональный шаттл. Рекомендованный размер команды 1 человек.
   price: 29500
   category: Small

@@ -24,6 +24,8 @@
   - type: FlavorProfile
     flavors:
       - people
+  - type: StaticPrice
+    price: 1000
 
 - type: entity
   id: OrganDionaBrain

@@ -1,6 +1,6 @@
 - type: vessel
   id: Sprinter
-  name: KC Спринтер
+  name: KC Sprinter
   description: Среднегабаритный экспедиционный шаттл. Рекомендованный состав команды 3-6 человек.
   price: 61500 # 15% tax
   category: Medium

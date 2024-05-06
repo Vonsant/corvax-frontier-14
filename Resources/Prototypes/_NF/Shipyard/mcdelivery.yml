@@ -7,7 +7,7 @@
 
 - type: vessel
   id: McDelivery
-  name: DC Курьер
+  name: DC McDelivery
   description: Персональный малогабаритный шаттл доставки.
   price: 8500
   category: Small

@@ -469,6 +469,9 @@
           Quantity: 82
   - type: Extractable
     grindableSolutionName: food
+  - type: StaticPrice
+    price: 301
+
 
 - type: entity
   name: cheese wheel

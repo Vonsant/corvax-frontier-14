@@ -8,7 +8,7 @@
       stationProto: SecurityFrontierOutpost
       components:
         - type: StationNameSetup
-          mapNameTemplate: 'Аванпост ДСБФ'
+          mapNameTemplate: 'Аванпост NFSD'
         - type: StationJobs
           overflowJobs: []
           availableJobs:

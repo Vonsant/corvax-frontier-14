@@ -10,7 +10,7 @@
 #
 - type: vessel
   id: Pathfinder
-  name: KC Следопыт
+  name: KC Pathfinder
   description: Малогабаритный экспедиционный шаттл. Рекомендуемый состав команды 2-4 человека.
   price: 52920
   category: Small

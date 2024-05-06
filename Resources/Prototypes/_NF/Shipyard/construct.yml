@@ -1,6 +1,6 @@
 - type: vessel
   id: Construct
-  name: NT Каркас
+  name: NT Construct
   description: Чисто технически это тоже шаттл. Не рекомендуется никому.
   price: 12075
   category: Small

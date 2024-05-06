@@ -10,7 +10,7 @@
 #
 - type: vessel
   id: Mission
-  name: NC Мессия
+  name: NC Mission
   description: Малогабаритный шаттл-церковь. Рекомендованный состав команды 1-2 человека.
   price: 19000
   category: Small

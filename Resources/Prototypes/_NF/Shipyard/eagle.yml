@@ -7,7 +7,7 @@
 
 - type: vessel
   id: Eagle
-  name: NM Орлан
+  name: NM Eagle
   description: Среднегабаритный медико-инженерный шаттл. Рекомендованный размер команды 3-5 человек.
   price: 57550 
   category: Medium

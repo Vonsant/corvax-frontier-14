@@ -10,7 +10,7 @@
 #
 - type: vessel
   id: Skipper
-  name: NC Шкипер
+  name: NC Skipper
   description: Малогабаритный ботанический шаттл-ресторан. Рекомендованный состав команды 1-2 человека.
   price: 37500
   category: Small

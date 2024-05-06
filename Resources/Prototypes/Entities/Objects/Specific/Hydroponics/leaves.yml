@@ -17,7 +17,8 @@
         reagents:
         - ReagentId: THC
           Quantity: 15
-
+  - type: StaticPrice
+    price: 35
 
 - type: entity
   name: dried cannabis leaves
@@ -37,6 +38,8 @@
   - type: Sprite
     sprite: Objects/Specific/Hydroponics/tobacco.rsi
     state: dried
+  - type: StaticPrice
+    price: 25
 
 - type: entity
   name: ground cannabis
@@ -65,7 +68,8 @@
       - Smokable
   - type: Item
     size: Tiny
-
+  - type: StaticPrice
+    price: 40
 
 - type: entity
   name: tobacco leaves
@@ -77,6 +81,8 @@
     sprite: Objects/Specific/Hydroponics/tobacco.rsi
   - type: Produce
     seedId: tobacco
+  - type: StaticPrice
+    price: 15
 
 - type: entity
   name: dried tobacco leaves
@@ -96,6 +102,8 @@
   - type: Sprite
     sprite: Objects/Specific/Hydroponics/tobacco.rsi
     state: dried
+  - type: StaticPrice
+    price: 15
 
 - type: entity
   name: ground tobacco
@@ -124,3 +132,6 @@
       - Smokable
   - type: Item
     size: Tiny
+  - type: StaticPrice
+    price: 20
+

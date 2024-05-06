@@ -19,7 +19,7 @@
 
 - type: gameMap
   id: Liquidator
-  mapName: 'NC Liquidator'
+  mapName: 'NT Liquidator'
   mapPath: /Maps/_NF/Shuttles/liquidator.yml
   minPlayers: 0
   stations:

@@ -1,6 +1,6 @@
 - type: vessel
   id: phoenix
-  name: NR Феникс
+  name: NR Phoenix
   description: Среднегабаритный ксеноархеологический шаттл. Рекомендуемый состав команды 2-4 человека.
   price: 60000
   category: Medium

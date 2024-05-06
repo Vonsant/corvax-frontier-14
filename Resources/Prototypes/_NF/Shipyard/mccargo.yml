@@ -7,7 +7,7 @@
 
 - type: vessel
   id: McCargo
-  name: DC Каргония
+  name: DC McCargo
   description: Среднегабаритный шаттл-ресторан. Рекомендованный состав команды 3-6 человек.
   price: 70000 # 10% up from sell
   category: Medium

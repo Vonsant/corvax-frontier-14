@@ -1,6 +1,6 @@
 - type: vessel
   id: Investigator
-  name: NR Исследователь
+  name: NR Investigator
   description: Малогабаритный исследовательский шаттл. Рекомендованный состав команды 1-2 человека.
   price: 46000
   category: Small

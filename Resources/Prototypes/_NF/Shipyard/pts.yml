@@ -10,7 +10,7 @@
 #
 - type: vessel
   id: PTS
-  name: NC Бомбила
+  name: NC Personal Transport
   description: Малогабаритный транспортный шаттл на 5 пассажиров. Рекомендованный состав команды 1-3 человека.
   price: 13900
   category: Small

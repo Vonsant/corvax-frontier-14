@@ -10,7 +10,7 @@
 #
 - type: vessel
   id: WaveShot
-  name: NC Цунами
+  name: NC WaveShot
   description: Малогабаритный новостной шаттл. Рекомендованный состав команды 1+ человек.
   price: 37500 # 15% markup +4890
   category: Small

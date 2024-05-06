@@ -24,3 +24,5 @@
     groups:
       - id: Food
       - id: Drink
+  - type: StaticPrice
+    price: 5000

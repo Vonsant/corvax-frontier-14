@@ -1,6 +1,6 @@
 - type: vessel
   id: Gourd
-  name: SLI Цукини
+  name: SLI Gourd
   description: Крупногабаритный экспедиционный шаттл. Рекомендованный размер команды 4-8 человек.
   price: 225000
   category: Large

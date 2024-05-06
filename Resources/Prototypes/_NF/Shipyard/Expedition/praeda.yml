@@ -10,7 +10,7 @@
 #
 - type: vessel
   id: Praeda
-  name: NT Добытчик
+  name: NT Praeda
   description: Крупногабаритный многоцелевой экспедиционный шаттл. Рекомендованный состав команды 4-8 человек.
   price: 150000
   category: Large

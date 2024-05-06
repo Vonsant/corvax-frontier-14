@@ -1,6 +1,6 @@
 - type: vessel
   id: hauler
-  name: NC Тягач
+  name: NC Hauler
   description: Среднегабаритный добывающий шаттл. Рекомендованный состав команды 3-6 человек.
   price: 60000
   category: Medium

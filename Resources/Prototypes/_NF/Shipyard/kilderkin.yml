@@ -11,7 +11,7 @@
 
 - type: vessel
   id: kilderkin
-  name: NC Бочка
+  name: NC Kilderkin
   description: "Среднегабаритный шаттл-бар. Рекомендованный состав команды 2-4 человека."
   price: 42900
   category: Medium

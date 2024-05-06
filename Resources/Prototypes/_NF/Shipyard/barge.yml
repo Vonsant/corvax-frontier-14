@@ -10,7 +10,7 @@
 # 
 - type: vessel
   id: Barge
-  name: NC Баржа
+  name: NC Barge
   description: Среднегабаритный добывающий шаттл. Рекомендованный размер команды 3-6 человек.
   price: 42300
   category: Medium

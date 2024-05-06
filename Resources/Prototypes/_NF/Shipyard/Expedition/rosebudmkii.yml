@@ -1,6 +1,6 @@
 - type: vessel
   id: RosebudMKII
-  name: NT Бутон MKII
+  name: NT Rosebud MKII
   description: Среднегабаритный экспедиционный шаттл. Рекомендованный состав команды 3-6 человек.
   price: 138000
   category: Medium

@@ -10,7 +10,7 @@
 #
 - type: vessel
   id: Helix
-  name: NM Спираль
+  name: NM Helix
   description: Среднегабаритный медицинский шаттл. Рекомендованный размер команды 2-4 человека.
   price: 44600 # +5800 from 15% markup
   category: Medium

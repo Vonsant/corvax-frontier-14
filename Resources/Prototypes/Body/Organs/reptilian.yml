@@ -21,3 +21,5 @@
         reagents:
         - ReagentId: UncookedAnimalProteins
           Quantity: 5
+  - type: StaticPrice
+    price: 5000

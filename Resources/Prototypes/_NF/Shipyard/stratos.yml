@@ -10,7 +10,7 @@
 #
 - type: vessel
   id: Stratos
-  name: NR Стратег
+  name: NR Stratos
   description: Среднегабаритный исследовательский шаттл. Рекомендованный состав команды 2-6 человек.
   price: 90000
   category: Medium

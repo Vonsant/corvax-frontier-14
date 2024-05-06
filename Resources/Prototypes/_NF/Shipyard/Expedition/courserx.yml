@@ -1,6 +1,6 @@
 - type: vessel
   id: CourserX
-  name: NT Дальнобойщик-Х
+  name: NT Courser-X
   description: Среднегабаритный экспедиционный шаттл. Рекомендованный размер команды 3-6 человек.
   price: 68650
   category: Medium

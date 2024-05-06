@@ -10,7 +10,7 @@
 #
 - type: vessel
   id: RosebudMKI
-  name: NT Бутон MKI
+  name: NT Rosebud MKI
   description: Среднеразмерный добывающий шаттл. Рекомендованный состав команды 2-6 человек.
   price: 92115
   category: Medium

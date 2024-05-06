@@ -10,7 +10,7 @@
 #
 - type: vessel
   id: Piecrust
-  name: NC Пирожок
+  name: NT Piecrust
   description: Малогабаритный шаттл ресторан с зоопарком. Рекомендованный состав команды 1-2 человека.
   price: 27500
   category: Small

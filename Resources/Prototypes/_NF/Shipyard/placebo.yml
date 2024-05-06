@@ -1,6 +1,6 @@
 - type: vessel
   id: Placebo
-  name: NC Плацебо
+  name: NC Placebo
   description: Малогабаритный шаттл психолога. Рекомендуемый состав команды 1 человек.
   price: 20000
   category: Small

@@ -1,6 +1,6 @@
 - type: vessel
   id: Dragonfly
-  name: DYS Стрекоза
+  name: DYS Dragonfly
   description: Среднегабаритный экспедиционный шаттл. Рекомендованный размер команды 2-5 человек.
   price: 85000
   category: Medium

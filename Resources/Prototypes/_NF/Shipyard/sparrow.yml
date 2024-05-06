@@ -10,7 +10,7 @@
 #
 - type: vessel
   id: Sparrow
-  name: NR Воробей
+  name: NR Sparrow
   description: Малогабаритный инженерно-исследовательский шаттл. Рекомендованный состав команды 1-4 человека.
   price: 37000 # +4800 from 15% markup
   category: Small

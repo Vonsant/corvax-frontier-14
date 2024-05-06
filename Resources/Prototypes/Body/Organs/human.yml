@@ -27,6 +27,8 @@
   - type: Tag
     tags:
       - Meat
+  - type: StaticPrice
+    price: 1000
 
 - type: entity
   id: BaseHumanOrgan
@@ -68,6 +70,8 @@
   - type: FlavorProfile
     flavors:
       - people
+  - type: StaticPrice
+    price: 2000
   
 - type: entity
   id: OrganHumanEyes

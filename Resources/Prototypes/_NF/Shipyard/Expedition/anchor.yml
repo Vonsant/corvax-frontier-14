@@ -1,6 +1,6 @@
 - type: vessel
   id: Anchor
-  name: KC Якорь
+  name: KC Anchor
   description: Крупногабаритный экспедиционный шаттл. Рекомендованный размер команды 4-8 человек.
   price: 135020
   category: Large

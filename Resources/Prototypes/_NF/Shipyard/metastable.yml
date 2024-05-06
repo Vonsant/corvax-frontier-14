@@ -1,6 +1,6 @@
 - type: vessel
   id: Metastable
-  name: TC Гармония
+  name: TC Metastable
   description: Среднегабаритный многоцелевой шаттл. Рекомендуемый состав команды 3-6 человек.
   price: 95000
   category: Medium

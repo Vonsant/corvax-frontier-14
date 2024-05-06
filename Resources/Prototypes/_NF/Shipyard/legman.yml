@@ -10,7 +10,7 @@
 #
 - type: vessel
   id: Legman
-  name: NC Интервьюер
+  name: NC Legman
   description: Малогабаритный репортёрский шаттл. Рекомендованный размер команды 1 человек.
   price: 11700
   category: Small

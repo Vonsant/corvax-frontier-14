@@ -1,6 +1,6 @@
 - type: vessel
   id: Bazaar
-  name: SLI Барахолка
+  name: SLI Bazaar
   description: Среднегабаритный торговый шаттл. Рекомендованный размер команды 2-4 человека.
   price: 65000
   category: Medium
