@@ -8,10 +8,6 @@ namespace Content.Server.Database.Migrations.Postgres
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
-            migrationBuilder.DropIndex(
-                name: "IX_trait_profile_id",
-                table: "trait");
-
             migrationBuilder.AddColumn<int>(
                 name: "bank_balance",
                 table: "profile",
@@ -35,11 +31,6 @@ namespace Content.Server.Database.Migrations.Postgres
             migrationBuilder.DropColumn(
                 name: "bank_balance",
                 table: "profile");
-
-            migrationBuilder.CreateIndex(
-                name: "IX_trait_profile_id",
-                table: "trait",
-                column: "profile_id");
         }
     }
 }
