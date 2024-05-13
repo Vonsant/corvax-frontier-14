@@ -122,7 +122,7 @@ namespace Content.Client.Administration.UI.Tabs.PlayerTab
                     new StyleBoxFlat(useAltColor ? _altColor : _defaultColor),
                     player.Connected,
                     player.PlaytimeString,
-                    player.Balance == int.MinValue ? "NO BALANCE" : player.Balance.ToString());
+                    player.Balance == ulong.MinValue ? "NO BALANCE" : player.Balance.ToString());
                 entry.PlayerEntity = player.NetEntity;
                 entry.OnKeyBindDown += args => OnEntryKeyBindDown?.Invoke(entry, args);
                 entry.ToolTip = Loc.GetString("player-tab-entry-tooltip");

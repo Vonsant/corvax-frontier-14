@@ -189,14 +189,14 @@ public sealed partial class BankSystem
             return;
         }
 
-        _cargo.DeductFunds(stationBank, -args.Amount);
+        _cargo.DeductFunds(stationBank, args.Amount);
         ConsolePopup(args.Session, Loc.GetString("bank-atm-menu-deposit-successful"));
         PlayConfirmSound(uid, component);
         _log.Info($"{args.Session.UserId} {args.Session.Name} deposited {args.Amount}, '{args.Reason}': {args.Description}");
 
         _adminLogger.Add(LogType.ATMUsage, LogImpact.Low, $"{ToPrettyString(player):actor} deposited {args.Amount} to station bank account. '{args.Reason}': {args.Description}");
 
-        SetInsertedCashAmount(component, args.Amount, out int leftAmount, out bool empty);
+        SetInsertedCashAmount(component, args.Amount, out ulong leftAmount, out bool empty);
 
         // yeet and delete the stack in the cash slot after success if its worth 0
         if (empty)
@@ -248,7 +248,7 @@ public sealed partial class BankSystem
             new StationBankATMMenuInterfaceState(stationBank.Balance, _access.IsAllowed(player, uid), deposit));
     }
 
-    private void GetInsertedCashAmount(StationBankATMComponent component, out int amount)
+    private void GetInsertedCashAmount(StationBankATMComponent component, out ulong amount)
     {
         amount = 0;
         var cashEntity = component.CashSlot.ContainerSlot?.ContainedEntity;
@@ -259,11 +259,11 @@ public sealed partial class BankSystem
             return;
         }
 
-        amount = cashStack.Count;
+        amount = (ulong)cashStack.Count;
         return;
     }
 
-    private void SetInsertedCashAmount(StationBankATMComponent component, int amount, out int leftAmount, out bool empty)
+    private void SetInsertedCashAmount(StationBankATMComponent component, ulong amount, out ulong leftAmount, out bool empty)
     {
         leftAmount = 0;
         empty = false;
@@ -275,9 +275,9 @@ public sealed partial class BankSystem
             return;
         }
 
-        int newAmount = cashStack.Count;
-        cashStack.Count = newAmount - amount;
-        leftAmount = cashStack.Count;
+        ulong newAmount = (ulong)cashStack.Count;
+        cashStack.Count = (int)(newAmount - amount); // может ебнуть
+        leftAmount = newAmount - amount;
 
         if (cashStack.Count <= 0)
             empty = true;

@@ -27,7 +27,7 @@ namespace Content.Shared.Preferences
         public const int MaxNameLength = 32;
         public const int MaxDescLength = 512;
 
-        public const int DefaultBalance = 25000;
+        public const ulong DefaultBalance = 25000;
 
         private readonly Dictionary<string, JobPriority> _jobPriorities;
         private readonly List<string> _antagPreferences;
@@ -40,7 +40,7 @@ namespace Content.Shared.Preferences
             int age,
             Sex sex,
             Gender gender,
-            int bankBalance,
+            ulong bankBalance,
             HumanoidCharacterAppearance appearance,
             ClothingPreference clothing,
             BackpackPreference backpack,
@@ -91,7 +91,7 @@ namespace Content.Shared.Preferences
             int age,
             Sex sex,
             Gender gender,
-            int bankBalance,
+            ulong bankBalance,
             HumanoidCharacterAppearance appearance,
             ClothingPreference clothing,
             BackpackPreference backpack,
@@ -160,7 +160,7 @@ namespace Content.Shared.Preferences
         }
 
         // TODO: This should eventually not be a visual change only.
-        public static HumanoidCharacterProfile Random(HashSet<string>? ignoredSpecies = null, int balance = DefaultBalance)
+        public static HumanoidCharacterProfile Random(HashSet<string>? ignoredSpecies = null, ulong balance = DefaultBalance)
         {
             var prototypeManager = IoCManager.Resolve<IPrototypeManager>();
             var random = IoCManager.Resolve<IRobustRandom>();
@@ -174,7 +174,7 @@ namespace Content.Shared.Preferences
             return RandomWithSpecies(species: species, balance: balance);
         }
 
-        public static HumanoidCharacterProfile RandomWithSpecies(string species = SharedHumanoidAppearanceSystem.DefaultSpecies, int balance = DefaultBalance)
+        public static HumanoidCharacterProfile RandomWithSpecies(string species = SharedHumanoidAppearanceSystem.DefaultSpecies, ulong balance = DefaultBalance)
         {
             var prototypeManager = IoCManager.Resolve<IPrototypeManager>();
             var random = IoCManager.Resolve<IRobustRandom>();
@@ -222,7 +222,7 @@ namespace Content.Shared.Preferences
         public Gender Gender { get; private set; }
 
         [DataField("bankBalance")]
-        public int BankBalance { get; private set; }
+        public ulong BankBalance { get; private set; }
 
         public ICharacterAppearance CharacterAppearance => Appearance;
 

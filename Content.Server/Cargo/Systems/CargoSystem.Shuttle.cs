@@ -70,10 +70,10 @@ public sealed partial class CargoSystem
         GetPalletGoods(uid, gridUid, out var toSell, out var amount);
         if (TryComp<MarketModifierComponent>(uid, out var priceMod))
         {
-            amount *= priceMod.Mod;
+            amount = (ulong)(amount * priceMod.Mod);
         }
         _uiSystem.SetUiState(bui,
-            new CargoPalletConsoleInterfaceState((int) amount, toSell.Count, true));
+            new CargoPalletConsoleInterfaceState((ulong) amount, toSell.Count, true));
     }
 
     private void OnPalletUIOpen(EntityUid uid, CargoPalletConsoleComponent component, BoundUIOpenedEvent args)
@@ -319,7 +319,7 @@ public sealed partial class CargoSystem
                 if (_blacklistQuery.HasComponent(ent))
                     continue;
 
-                var price = _pricing.GetPrice(ent);
+                var price = (double)_pricing.GetPrice(ent);
                 if (price == 0)
                     continue;
                 toSell.Add(ent);
@@ -387,7 +387,7 @@ public sealed partial class CargoSystem
             price *= priceMod.Mod;
         }
         var stackPrototype = _protoMan.Index<StackPrototype>(component.CashType);
-        _stack.Spawn((int) price, stackPrototype, xform.Coordinates);
+        _stack.Spawn((ulong)price, stackPrototype, xform.Coordinates);
         _audio.PlayPvs(ApproveSound, uid);
         UpdatePalletConsoleInterface(uid);
     }

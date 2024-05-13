@@ -117,7 +117,7 @@
 ///             var query = EntityQuery<StationBankAccountComponent>();
 ///             foreach (var account in query)
 ///             {
-///                 _cargo.DeductFunds(account, (int) -gridValue);
+///                 _cargo.AddFunds(account, (int) gridValue);
 ///             }
 ///         }
 ///     }

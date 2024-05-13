@@ -61,7 +61,7 @@ namespace Content.Client.Administration
                 var screenCoordinates = _eyeManager.WorldToScreen(aabb.Center +
                                                                   new Angle(-_eyeManager.CurrentEye.Rotation).RotateVec(
                                                                       aabb.TopRight - aabb.Center)) + new Vector2(1f, 7f);
-                var balance_str = playerInfo.Balance == int.MinValue ? "NO BALANCE" : playerInfo.Balance.ToString();
+                var balance_str = playerInfo.Balance == ulong.MinValue ? "NO BALANCE" : playerInfo.Balance.ToString(); // Зачем это здесь вообще? В чем разница есть ли у человека баланс или у него он 0?
                 if (playerInfo.Antag)
                 {
                     args.ScreenHandle.DrawString(_font, screenCoordinates + (lineoffset * 2), "ANTAG", Color.OrangeRed);

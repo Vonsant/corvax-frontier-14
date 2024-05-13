@@ -72,7 +72,7 @@ namespace Content.Server.Cargo.Systems
                 return;
 
             _audio.PlayPvs(component.ConfirmSound, uid);
-            UpdateBankAccount(stationUid.Value, bank, (int) price);
+            UpdateBankAccount(stationUid.Value, bank, (ulong) price);
             QueueDel(args.Used);
         }
 
@@ -99,7 +99,7 @@ namespace Content.Server.Cargo.Systems
 
                 foreach (var account in EntityQuery<StationBankAccountComponent>())
                 {
-                    account.Balance += account.IncreasePerSecond * Delay;
+                    account.Balance += (ulong)(account.IncreasePerSecond * Delay);
                 }
 
                 var query = EntityQueryEnumerator<CargoOrderConsoleComponent>();
@@ -173,7 +173,7 @@ namespace Content.Server.Cargo.Systems
                 PlayDenySound(uid, component);
             }
 
-            var cost = order.Price * order.OrderQuantity;
+            var cost = (ulong)(order.Price * order.OrderQuantity);
 
             // Not enough balance
             if (cost > bankAccount.Balance)
@@ -197,7 +197,7 @@ namespace Content.Server.Cargo.Systems
 
             foreach (var stationBankComp in stationQuery)
             {
-                DeductFunds(stationBankComp, (int) -(Math.Floor(cost * 0.4f)));
+                DeductFunds(stationBankComp, (ulong) (Math.Floor(cost * 0.4f)));
             }
             _bankSystem.TryBankWithdraw(player, cost);
 
@@ -315,7 +315,7 @@ namespace Content.Server.Cargo.Systems
             }
 
             var uiUser = bui.SubscribedSessions.FirstOrDefault();
-            var balance = 0;
+            var balance = (ulong)0;
 
             if (uiUser?.AttachedEntity is not { Valid: true } player)
             {
@@ -532,9 +532,19 @@ namespace Content.Server.Cargo.Systems
 
         }
 
-        public void DeductFunds(StationBankAccountComponent component, int amount)
+        public void DeductFunds(StationBankAccountComponent component, ulong amount)
         {
-            component.Balance = Math.Max(0, component.Balance - amount);
+            if (component.Balance > amount) {
+                component.Balance = component.Balance - amount;
+
+            } else {
+                component.Balance = (ulong) 0;
+            }
+        }
+
+         public void AddFunds(StationBankAccountComponent component, ulong amount)
+        {
+            component.Balance = component.Balance + amount;
         }
 
         #region Station

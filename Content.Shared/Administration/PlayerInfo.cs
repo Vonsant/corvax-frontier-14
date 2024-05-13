@@ -15,7 +15,7 @@ namespace Content.Shared.Administration
         bool Connected,
         bool ActiveThisRound,
         TimeSpan? OverallPlaytime,
-        int Balance)
+        ulong Balance)
     {
         private string? _playtimeString;
 

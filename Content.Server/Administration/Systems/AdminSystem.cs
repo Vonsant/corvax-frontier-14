@@ -221,7 +221,7 @@ namespace Content.Server.Administration.Systems
             var name = data.UserName;
             var entityName = string.Empty;
             var identityName = string.Empty;
-            int balance = 0;
+            ulong balance = 0;
 
             if (session?.AttachedEntity != null)
             {
@@ -233,7 +233,7 @@ namespace Content.Server.Administration.Systems
                 }
                 else
                 {
-                    balance = int.MinValue; // Эквивалент отсутствующего баланса
+                    balance = ulong.MinValue; // Эквивалент отсутствующего баланса
                 }
             }
 

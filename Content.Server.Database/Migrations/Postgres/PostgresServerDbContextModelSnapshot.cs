@@ -740,8 +740,8 @@ namespace Content.Server.Database.Migrations.Postgres
                         .HasColumnType("text")
                         .HasColumnName("backpack");
 
-                    b.Property<int>("BankBalance")
-                        .HasColumnType("integer")
+                    b.Property<decimal>("BankBalance")
+                        .HasColumnType("numeric(20,0)")
                         .HasColumnName("bank_balance");
 
                     b.Property<string>("CharacterName")
