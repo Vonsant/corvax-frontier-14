@@ -17,6 +17,14 @@
     {
       "name": "inhand-right",
       "directions": 4
+    },
+    {
+      "name": "inhand-left-light-resomi",
+      "directions": 4
+    },
+    {
+      "name": "inhand-right-light-resomi",
+      "directions": 4
     }
   ]
 }

@@ -1,0 +1,223 @@
+- type: entity
+  id: BaseResomiOrgan
+  parent: BaseItem
+  abstract: true
+  components:
+  - type: Sprite
+    sprite: Mobs/Species/Human/organs.rsi
+  - type: Organ
+  - type: Food
+  - type: Extractable
+    grindableSolutionName: organ
+  - type: SolutionContainerManager
+    solutions:
+      organ:
+        reagents:
+        - ReagentId: Nutriment
+          Quantity: 10
+      food:
+        maxVol: 5
+        reagents:
+        - ReagentId: UncookedAnimalProteins
+          Quantity: 5
+  - type: FlavorProfile
+    flavors:
+      - people
+  - type: Tag
+    tags:
+      - Meat
+
+- type: entity
+  id: OrganResomiBrain
+  parent: BaseResomiOrgan
+  name: мозг резоми
+  description: Источник невероятного, бесконечного интеллекта. Хонк.
+  components:
+  - type: Sprite
+    sprite: Corvax/Mobs/Species/Resomi/organs.rsi
+    state: brain
+  - type: Organ
+  - type: Input
+    context: "ghost"
+  - type: Brain
+  - type: BlockMovement
+  
+- type: entity
+  id: OrganResomiEyes
+  parent: BaseResomiOrgan
+  name: глаза резоми
+  description: Я тебя вижу!
+  components:
+  - type: Sprite
+    sprite: Corvax/Mobs/Species/Resomi/organs.rsi
+    state: eyes
+
+- type: entity
+  id: OrganResomiTongue
+  parent: BaseResomiOrgan
+  name: язык резоми
+  description: Мясистая мышца, используемая в основном для обмана.
+  components:
+  - type: Sprite
+    sprite: Mobs/Species/Human/organs.rsi
+    state: tongue
+
+- type: entity
+  id: OrganResomiAppendix
+  parent: BaseResomiOrgan
+  name: аппендикс резоми
+  components:
+  - type: Sprite
+    sprite: Mobs/Species/Human/organs.rsi
+    layers:
+    - state: appendix
+    - state: appendix-inflamed
+      visible: false
+      
+- type: entity
+  id: OrganResomiLungs
+  parent: BaseResomiOrgan
+  name: правое лёгкое резоми
+  description: Фильтрует кислород из атмосферы, который затем поступает в кровь для использования в качестве переносчика электронов.
+  components:
+  - type: Sprite
+    state: lung-r      
+  - type: Lung
+  - type: Metabolizer
+    removeEmpty: true
+    solutionOnBody: false
+    solution: "Lung"
+    metabolizerTypes: [ Animal ]
+    groups:
+    - id: Gas
+      rateModifier: 100.0
+  - type: SolutionContainerManager
+    solutions:
+      organ:
+        reagents:
+        - ReagentId: Nutriment
+          Quantity: 10
+      Lung:
+        maxVol: 100.0
+        canReact: false
+      food:
+        maxVol: 5
+        reagents:
+        - ReagentId: Nutriment
+          Quantity: 5
+
+- type: entity
+  id: OrganResomiLungs
+  parent: BaseResomiOrgan
+  name: левое лёгкое резоми
+  description: Фильтрует кислород из атмосферы, который затем поступает в кровь для использования в качестве переносчика электронов.
+  components:
+  - type: Sprite
+    state: lung-l      
+  - type: Lung
+  - type: Metabolizer
+    removeEmpty: true
+    solutionOnBody: false
+    solution: "Lung"
+    metabolizerTypes: [ Animal ]
+    groups:
+    - id: Gas
+      rateModifier: 100.0
+  - type: SolutionContainerManager
+    solutions:
+      organ:
+        reagents:
+        - ReagentId: Nutriment
+          Quantity: 10
+      Lung:
+        maxVol: 100.0
+        canReact: false
+      food:
+        maxVol: 5
+        reagents:
+        - ReagentId: Nutriment
+          Quantity: 5
+          
+
+- type: entity
+  id: OrganResomiHeart
+  parent: BaseResomiOrgan
+  name: сердце резоми
+  description: Мне жаль того бессердечного ублюдка, который его потерял.
+  components:
+  - type: Sprite
+    state: heart-on
+  - type: Metabolizer
+    maxReagents: 4
+    metabolizerTypes: [ Animal ]
+    groups:
+    - id: Medicine
+    - id: Poison
+    - id: Narcotic
+
+- type: entity
+  id: OrganResomiStomach
+  parent: BaseResomiOrgan
+  name: желудок резоми
+  description: Мерзость. Не перевариваю его.
+  components:
+  - type: Sprite
+    sprite: Mobs/Species/Human/organs.rsi
+    state: stomach
+  - type: SolutionContainerManager
+    solutions:
+      stomach:
+        maxVol: 50
+      food:
+        maxVol: 5
+        reagents:
+        - ReagentId: Nutriment
+          Quantity: 5
+  - type: Stomach
+  - type: Metabolizer
+    maxReagents: 3
+    metabolizerTypes: [ Animal ]
+    groups:
+    - id: Food
+    - id: Drink
+
+- type: entity
+  id: OrganResomiLiver
+  parent: BaseResomiOrgan
+  name: печень резоми
+  description: Рекомендуется подавать с бобами, под кьянти.
+  components:
+  - type: Sprite
+    state: liver
+  - type: Metabolizer 
+    maxReagents: 1
+    metabolizerTypes: [ Animal ]
+    groups:
+    - id: Alcohol
+      rateModifier: 0.1 
+
+- type: entity
+  id: OrganResomiKidneys
+  parent: BaseResomiOrgan
+  name: левая почка резоми
+  description: Выводят токсины из кровеносной системы.
+  components:
+  - type: Sprite
+    state: kidney-l
+  - type: Metabolizer
+    maxReagents: 5
+    metabolizerTypes: [ Animal ]
+    removeEmpty: true
+
+- type: entity
+  id: OrganResomiKidneys
+  parent: BaseResomiOrgan
+  name: правая почка резоми
+  description: Выводят токсины из кровеносной системы.
+  components:
+  - type: Sprite
+    state: kidney-r
+  - type: Metabolizer
+    maxReagents: 5
+    metabolizerTypes: [ Animal ]
+    removeEmpty: true
