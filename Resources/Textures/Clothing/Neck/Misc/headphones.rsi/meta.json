@@ -96,6 +96,10 @@
       "directions": 4
     },
     {
+      "name": "off-equipped-NECK",
+      "directions": 4
+    },
+    {
       "name": "equipped-NECK-resomi",
       "directions": 4
     },
