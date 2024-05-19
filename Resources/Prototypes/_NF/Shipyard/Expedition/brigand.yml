@@ -10,7 +10,7 @@
 #
 - type: vessel
   id: Brigand
-  name: NT Brigand
+  name: NT Старожил
   description: Civilian conversion of an old military light frigate from the early days of humanity's expansion to the stars, predating FTL technology.
   price: 53550 # 46550$ on mapinit + 7000$ from 15% markup
   category: Medium
@@ -27,7 +27,7 @@
       stationProto: StandardFrontierExpeditionVessel
       components:
         - type: StationNameSetup
-          mapNameTemplate: 'Brigand {1}'
+          mapNameTemplate: 'Старожил {1}'
           nameGenerator:
             !type:NanotrasenNameGenerator
             prefixCreator: '14'
