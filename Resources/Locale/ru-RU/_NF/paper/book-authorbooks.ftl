@@ -1,154 +1,150 @@
-book-text-academia-volumeone =
-    Scientific Academia Vol.I
+book-text-academia-volumeone = Кратко о Науке, Том I
     
-    Title: Scientific Academia Vol.I
+    Заголовок: Кратко о Науке, Том I
     
-      Author: Bertle "Book" Bartleby
+      Автор: Бертли "Букер" Бартбли
     
-      Introduction
+      Введение
     
-      Congratulations on recieving your honourary starters guide to the Scientific Method on the Frontier. In this three hundred and forty seven page thesis I will explain... (Oh, it seems someone has torn out the rest of the pages.)
-book-text-science-philospher =
-    Cooking with the Philospher's Stone
+      Поздравляю вас с получением знаменитого путеводителя по Науке. В этом трёхсотсорокасемистраничном трактате я объясню... (О, кажется, кто-то вырвал все остальные страницы.)
+book-text-science-philospher = Готовим с философским камнем
     
-    Section: Mystical Culinary Delights
+    Раздел: Мистические Кулинарные Угощения
     
-      1. Starmetal Elixir
+      1. Эликсир из космотаниума:
     
-      Ingredients:
+      Ингредиенты:
     
-      1 tsp ground Starmetal
-      1 cup hot water
-      1 tbsp honey
-      2 slices of lemon
-      Instructions:
+      1 ч.л. измельченного космотаниума
+      1 чашка горячей воды
+      1 ст.л. мёда
+      2 ломтика лимона
+      Инструкция:
     
-      In a small pot, bring the water to a gentle boil.
-      Add the ground Starmetal and let it simmer for 5 minutes.
-      Remove from heat and strain the mixture into a cup.
-      Add honey and lemon slices for taste.
-      Enjoy the elixir warm, ideal for enhancing magical focus.
+      В небольшой кастрюльке довести воду до легкого кипения.
+      Добавить измельченный космотаниум и томить 5 минут.
+      Снять с огня и процедить в чашку.
+      Добавить мёд и лимон по вкусу.
+      Наслаждайтесь тёплым эликсиром, идеально подходит для улучшения магической концентрации.
     
-      2. Dragon's Blood Stew
+      2. Тушёнка из дракона
     
-      Ingredients:
+      Ингредиенты:
     
-      1 lb diced meat (your choice)
-      2 tbsp Dragon's Blood resin (crushed)
-      1 onion, chopped
-      2 carrots, chopped
-      2 potatoes, chopped
-      4 cups beef or vegetable broth
-      Salt and pepper to taste
-      1 tsp thyme
-      Instructions:
+      1 0,5 кг сырого мяса дракона
+      2 ст.л. крови дракона
+      1 луковица, нарезанная
+      2 моркови, нарезанные
+      2 картофелины, нарезанные
+      1 литр мясного или овощного бульона
+      Соль и перец по вкусу
+      1 ч.л. тимьяна
+      Инструкция:
     
-      In a large pot, brown the meat over medium heat.
-      Add the onions and cook until translucent.
-      Add the Dragon's Blood resin, carrots, potatoes, broth, salt, pepper, and thyme.
-      Bring to a boil, then reduce heat and simmer for 1 hour, or until the meat is tender.
-      Serve hot, perfect for a hearty meal after a long quest.
+      В большой кастрюле потушить мясо на среднем огне.
+      Добавить лук и жарить до его готовности.
+      Добавить кровь дракона, морковь, картофель, бульон, соль, перец и тимьян.
+      Довести до кипения, затем уменьшить огонь и томить 1 час, или до тех пор, пока мясо не станет мягким.
+      Подавать горячим, идеальный вариант для сытного обеда после долгого квеста.
     
-      3. Starmetal and Dragon's Blood Tea
+      3. Чай из космотаниума и крови дракона
     
-      Ingredients:
+      Ингредиенты:
     
-      1 tsp ground Starmetal
-      1 tsp Dragon's Blood resin (crushed)
-      1 cup boiling water
-      Honey or sugar to taste
-      Instructions:
+      1 ч.л. измельченного космотаниума
+      1 ч.л. крови дракона
+      1 чашка кипятка
+      Мёд или сахар по вкусу
+      Инструкция:
     
-      In a teapot or cup, combine the ground Starmetal and crushed Dragon's Blood resin.
-      Pour boiling water over the mixture and let it steep for 5 minutes.
-      Strain the tea into a cup and add honey or sugar to taste.
-      Enjoy this mystical blend for a magical boost in energy.
-book-text-science-dwarven =
-    Dwarven Guide to Free Thinking
+      В чайнике или чашке соединить измельченный космотаниум и кровь дракона.
+      Залить кипятком и дать настояться 5 минут.
+      Процедить чай в чашку и добавить мёд или сахар по вкусу.
+      Наслаждайтесь этим мистическим напитком для магического заряда энергии.
+book-text-science-dwarven = Дварфийское руководство по свободному мышлению
     
-    Title: Dwarven Guide to Free Thinking
+    Заголовок: Дварфийское руководство по свободному мышлению
     
-      Author: Grimbald Stoneheart
+      Автор: Гримбальд Каменное Сердце
     
-      Introduction
+      Введение
     
-      Welcome, dear reader, to a journey unlike any other. I am Grimbald Stoneheart, a dwarf who has delved deep into the mines of knowledge and emerged with precious gems of wisdom. In this guide, I will share with you the secrets of opening one's mind, with a special focus on the potent substance known as Nåzomvim. Prepare to embark on a journey that will expand your horizons and challenge your perceptions.
+      Добро пожаловать, уважаемый читатель, в путешествие не похожее ни на одно другое. Меня зовут Гримбальд Каменное Сердце, дварф, который спустился в глубины шахт знаний и выбрался с драгоценными самоцветами мудрости. В этом руководстве я поделюсь с вами секретами раскрытия ума с особым упором на мощное вещество под названием Назомвим. Готовьтесь к путешествию, которое расширит ваши горизонты и поставит под сомнение ваши взгляды.
     
-      Chapter 1: Understanding Nåzomvim
+      Глава 1: Понимание Назомвима
     
-      Nåzomvim, a rare and powerful substance, is extracted from the mystical Nåzom Tatlosh. A fish found in the depths of underground lakes. Revered for its mind-expanding properties, it is a key to unlocking the doors of perception. However, it must be approached with respect and caution, for its potency is not to be underestimated.
+      Назомвим, редкое и мощное вещество, добывается из мистической рыбы Назом Татлош, обитающей в глубинах подземных озер. Почитаемое за его свойства расширения сознания, оно является ключом к открыванию дверей восприятия. Однако с ним следует обращаться с уважением и осторожностью, так как его мощь не следует недооценивать.
     
-      Chapter 2: Preparing the Mind
+      Глава 2: Подготовка ума
     
-      Before one can fully embrace the effects of Nåzomvim, it is essential to prepare the mind. This involves practices such as meditation, deep breathing, and visualization. These techniques help to clear the mind of clutter and create a receptive state for the transformative experience ahead.
+      Прежде чем полностью принять эффекты Назомвима, необходимо подготовить ум. Это включает в себя практики медитации, глубокого дыхания и визуализации. Эти техники помогают очистить ум от мусора и создать восприимчивое состояние для предстоящего трансформирующего опыта.
     
-      Chapter 3: The Ritual of Consumption
+      Глава 3: Ритуал употребления
     
-      The consumption of Nåzomvim is a sacred ritual. It should be done in a quiet, comfortable space, free from distractions. A small dose is all that is needed to begin the journey. As the Nåzomvim takes effect, one may feel a sense of euphoria, followed by a profound opening of the mind.
+      Употребление Назомвима — это священный ритуал. Его следует проводить в тихом, удобном месте, свободном от отвлечений. Малая доза достаточна для начала путешествия. После приема Назомвима можно ощутить эйфорию, за которой следует глубокое раскрытие ума.
     
-      Chapter 4: Navigating the Expanded Mind
+      Глава 4: Путешествие в расширенном уме
     
-      With the mind open, you will experience thoughts and ideas flowing freely, unbound by the constraints of conventional thinking. It is a time to explore, to question, and to discover. Keep a journal nearby to record your insights and revelations, for they may prove invaluable.
+      С открытым умом вы испытаете свободное течение мыслей и идей, не скованных ограничениями обыденного мышления. Это время для исследований, вопросов и открытий. Держите под рукой журнал, чтобы записывать свои прозрения и откровения, ведь они могут оказаться бесценными.
     
-      Chapter 5: Integration and Reflection
+      Глава 5: Интеграция и размышления
     
-      After the effects of Nåzomvim have subsided, it is crucial to take time for integration and reflection. This is when the true value of the experience is realized. Reflect on what you have learned and how it can be applied to your life. The goal is not just to think freely but to live freely as well.
+      После того как эффекты Назомвима утихнут, крайне важно уделить время интеграции и размышлениям. Именно тогда осознается истинная ценность пережитого опыта. Размышляйте о том, что вы узнали, и как это можно применить в вашей жизни. Цель не только в свободном мышлении, но и в свободном жизнеустройстве.
     
-      Conclusion
+      Заключение
     
-      The journey of opening one's mind is a lifelong quest, and Nåzomvim is but one tool in the vast arsenal of knowledge. Embrace the lessons learned, and continue to seek out new experiences and perspectives. Remember, the mind is like a forge; it must be constantly tended and fueled to produce the finest creations.
+      Путь к раскрытию ума — это пожизненный квест, и Назомвим — лишь один из инструментов в огромном арсенале знаний. Примите уроки, полученные в процессе, и продолжайте искать новые опыты и точки зрения. Помните, что ум подобен кузнице: его нужно постоянно ухаживать и подпитывать, чтобы он выдавал лучшие творения.
     
-      May your mind be as open as the halls of our ancestors, and may your thoughts flow as freely as the mountain streams.
+      Пусть ваш ум будет открыт, как залы наших предков, и пусть ваши мысли текут свободно, как горные ручьи.
     
-      With wisdom and respect,
-      Grimbald Stoneheart
-book-text-science-clown =
-    Honker's Hilarious Tight-Five
+      С мудростью и уважением,
+      Гримбальд Каменное Сердце
+book-text-science-clown = Шутки от Хонкера: Пять Минут Смеха
     
-    Title: Honker's Hilarious Tight-Five
+    Заголовок: Шутки от Хонкера: Пять Минут Смеха
     
-      Setting: A small, dimly lit stage on a spaceship. A spotlight shines on a microphone stand at the center. The audience, consisting of various aliens and humans, is buzzing with anticipation. Suddenly, the lights dim, and a spotlight illuminates Honker, the space clown, who bounces onto the stage wearing a bright, mismatched outfit with oversized shoes and a red nose that honks.
+      Сцена: Небольшая, тускло освещенная сцена на космическом корабле. Прожектор освещает стойку с микрофоном в центре. Аудитория, состоящая из различных инопланетян и людей, ждёт с нетерпением. Вдруг свет тускнеет, и прожектор освещает Хонкера, клоуна, который прыгает на сцену в ярком, несоответствующем наряде с огромными ботинками и красным пищащим носом.
     
-      Honker: (Waving) Hey there, galaxy gang! It's me, Honker, your favorite space clown! (Honks nose) Ready to blast off into some laughs?
+      Хонкер: (Машет рукой) Привет всем в этой галактике! Это я, Хонкер, ваш любимый клоун! (Пищит носом) Готовы взлететь на волнах смеха?
     
-      Audience: (Applause and cheers)
+      Аудитория: (Аплодисменты и одобрительные крики)
     
-      Honker: So, I was floating around the Milky Way the other day, and I bumped into an asteroid. I said, "Hey, watch where you're going!" And the asteroid said, "I've been here for millions of years, where have you been?" I said, "Stuck in traffic on Mars, where else?" (Honks nose)
+      Хонкер: Так вот, я недавно парил вокруг Млечного Пути и врезался в астероид. Я говорю ему: "Эй, смотри куда летишь!" А астероид отвечает: "Я здесь миллионы лет, а ты где был?" Я говорю: "Застрял в пробке на Марсе, где ещё?" (Пищит носом)
     
-      Audience: (Laughter)
+      Аудитория: (Смех)
     
-      Honker: Speaking of Mars, you ever notice how Martians never laugh? I asked one why, and he said, "We don't have a sense of humor. It's not in our atmosphere." So I gave him a balloon animal, and guess what? It floated away! (Mimics balloon floating away) Guess their sense of humor isn't the only thing that's light! (Honks nose)
+      Хонкер: А уж про марсиан, говоря, вы замечали, что они никогда не смеются? Я спросил одного, почему так, а он говорит: "У нас нет чувства юмора. Это не в нашей атмосфере." Так я ему шарикового зверька подарил, и что вы думаете? Он улетел! (Имитирует улетающий шарик) Видимо, не только их чувство юмора легкое! (Пищит носом)
     
-      Audience: (More laughter)
+      Аудитория: (Ещё больше смеха)
     
-      Honker: And what's the deal with space food? I ordered a pizza on the moon, and it took light-years to arrive! When it finally got there, I was like, "This is cold!" And the delivery guy said, "What did you expect? It's a cheese moon!" (Shrugs) At least it was crater-free! (Honks nose)
+      Хонкер: И что за дела с космической едой? Я заказал пиццу на Луне, а она пришла через световые года! Когда она наконец прибыла, я говорю: "Она холодная!" А курьер отвечает: "Чего ты ожидал? Это сырная Луна!" (Пожимает плечами) Хотя, по крайней мере, кратеров не было! (Пищит носом)
     
-      Audience: (Laughing)
+      Аудитория: (Смеются)
     
-      Honker: You know, I tried to start a band with some aliens. We called ourselves "The Cosmic Jokers." But we had to break up. Turns out, a black hole can't play drums, and a supernova is terrible at keeping time. The only thing we were good at was causing a big bang! (Honks nose)
+      Хонкер: Знаете, я пытался создать группу с некоторыми пришельцами. Мы назвали себя "Космические Шутники". Но нам пришлось распасться. Оказывается, черная дыра не умеет играть на барабанах, а сверхновая всё время сбивается с такта. Единственное, что у нас получалось – это устраивать большой взрыв! (Пищит носом)
     
-      Audience: (Laughter and applause)
+      Аудитория: (Смех и аплодисменты)
     
-      Honker: (Bowing) Thank you, thank you! You've been a stellar audience! Remember, in space, no one can hear you scream, but everyone can hear you laugh! Keep smiling, and may your stars always shine bright! (Honks nose one last time)
+      Хонкер: (Кланяется) Спасибо, спасибо! Вы были звездной аудиторией! Помните, в космосе никто не услышит вашего крика, но каждый услышит ваш смех! Продолжайте улыбаться, и пусть ваши звезды всегда светят ярко! (Пищит носом в последний раз)
     
-      Audience: (Applause and cheers as Honker takes a bow and exits the stage)
+      Аудитория: (Аплодисменты и одобрительные крики, когда Хонкер кланяется и уходит со сцены)
     
-      Honker: (Bouncing back into the spotlight) Oh, I almost forgot to tell ya about the time I tried to inject an asteroid with laughter! (Pauses for effect) You see, I thought, if I could just get this space rock to crack up, maybe we'd get along better.
+      Хонкер: (Возвращается в свет прожектора) Ой, чуть не забыл рассказать вам о том разе, когда я пытался заразить астероид смехом! (Пауза для эффекта) Видите ли, я подумал, если бы я смог заставить эту космическую скалу засмеяться, возможно, мы бы лучше поладили.
     
-      Audience: (Curious murmuring)
+      Аудитория: (Заинтересованное мурлыканье)
     
-      Honker: So, there I am, floating up to this giant rock with a giant syringe filled with pure, concentrated laughter. (Mimics holding a large syringe) I push in the plunger, and you know what happened?
+      Хонкер: Вот я, парящий к этой огромной скале с гигантским шприцем, наполненным чистым, концентрированным смехом. (Имитирует держание большого шприца) Я нажимаю на поршень, и знаете, что случилось?
     
-      Audience: (Leans in) What?
+      Аудитория: (Наклоняется вперед) Что?
     
-      Honker: It started giggling! A little chuckle at first, then a full-on belly laugh! (Imitates asteroid laughing) Turns out, all it needed was a good joke! So I asked, "Why did the astronaut break up with the planet?" "Because it needed space!"
+      Хонкер: Он начал хихикать! Сначала тихий смешок, а затем громкий хохот! (Имитирует смех астероида) Оказывается, всё, что ему нужно было – это хорошая шутка! Так я и спросил: "Почему астронавт расстался с планетой?" "Потому что ему нужно было пространство!"
     
-      Audience: (Laughter)
+      Аудитория: (Смех)
     
-      Honker: And just like that, we were on a rock 'n' roll! Literally, that asteroid laughed so hard, it changed its orbit! Now, whenever it passes by, it gives a little chuckle. Reminding us all, even the stoniest faces in the universe can crack a smile!
+      Хонкер: И вот так, мы закатились на рок 'н' ролл! Буквально, этот астероид так сильно засмеялся, что изменил свою орбиту! Теперь, когда он проходит мимо, он всегда хихикает. Напоминает нам всем, что даже самые каменные лица во вселенной могут улыбнуться!
     
-      Audience: (Laughter and applause)
+      Аудитория: (Смех и аплодисменты)
     
-      Honker: (Bows) Thank you, thank you! Remember, laughter's the best medicine, even for asteroids! Keep spreading those smiles, and let's make the universe a happier place, one rock at a time! (Honks nose)
+      Хонкер: (Кланяется) Спасибо, спасибо! Помните, смех – лучшее лекарство, даже для астероидов! Продолжайте распространять улыбки и давайте делать вселенную счастливее, по одной скале за раз! (Пищит носом)
     
-      Audience: (Cheers and applause as Honker exits the stage)
+      Аудитория: (Одобрительные крики и аплодисменты, когда Хонкер уходит со сцены)

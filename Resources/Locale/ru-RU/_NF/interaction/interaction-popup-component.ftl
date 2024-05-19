@@ -1,3 +1,3 @@
 ## Petting animals
 
-petting-failure-mistake = Ymg' reach yog l' pet { THE($target) }, mgng ahlloig vulgtmnahor ot h'.
+petting-failure-mistake = ”хм' трогать йог ала питом { $target }, мгнг ахллоинг вулгтмнахор в х'.

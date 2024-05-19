@@ -1,5 +1,5 @@
 ## Components
 
-suit-sensor-location-unknown = Unidentified Location
-suit-sensor-location-space = In Space
-suit-sensor-location-expedition = On Expedition
+suit-sensor-location-unknown = Местоположение неизвестно
+suit-sensor-location-space = В космосе
+suit-sensor-location-expedition = На экспедиции
