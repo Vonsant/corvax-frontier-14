@@ -22,7 +22,7 @@
   components:
   - type: Sprite
     netsync: false
-    sprite: Corvax/Mobs/Species/Resomi/organs.rsi
+    sprite: Corvax/Mobs/Species/Resomi/parts.rsi
     state: torso_m
   - type: Icon
     sprite: Corvax/Mobs/Species/Resomi/parts.rsi

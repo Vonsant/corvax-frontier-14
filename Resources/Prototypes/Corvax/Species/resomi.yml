@@ -54,41 +54,41 @@
 - type: humanoidBaseSprite
   id: MobHumanoidResomiHead
   baseSprite:
-    sprite: Corvax/Mobs/Species/Resomi/organs.rsi
+    sprite: Corvax/Mobs/Species/Resomi/parts.rsi
     state: head_m
 
 - type: humanoidBaseSprite
   id: MobHumanoidResomiHeadMale
   baseSprite:
-    sprite: Corvax/Mobs/Species/Resomi/organs.rsi
+    sprite: Corvax/Mobs/Species/Resomi/parts.rsi
     state: head_m
 
 - type: humanoidBaseSprite
   id: MobHumanoidResomiHeadFemale
   baseSprite:
-    sprite: Corvax/Mobs/Species/Resomi/organs.rsi
+    sprite: Corvax/Mobs/Species/Resomi/parts.rsi
     state: head_f
 
 - type: humanoidBaseSprite
   id: MobHumanoidResomiTorso
   baseSprite:
-    sprite: Corvax/Mobs/Species/Resomi/organs.rsi
+    sprite: Corvax/Mobs/Species/Resomi/parts.rsi
     state: torso2_m
     
 - type: humanoidBaseSprite
   id: MobHumanoidResomiTorsoMale
   baseSprite:
-    sprite: Corvax/Mobs/Species/Resomi/organs.rsi
+    sprite: Corvax/Mobs/Species/Resomi/parts.rsi
     state: torso2_m
 
 - type: humanoidBaseSprite
   id: MobHumanoidResomiTorsoFemale
   baseSprite:
-    sprite: Corvax/Mobs/Species/Resomi/organs.rsi
+    sprite: Corvax/Mobs/Species/Resomi/parts.rsi
     state: torso2_f
 
 - type: humanoidBaseSprite
   id: MobHumanoidEyesResomi
   baseSprite:
-    sprite: Corvax/Mobs/Species/Resomi/organs.rsi
+    sprite: Corvax/Mobs/Species/Resomi/parts.rsi
     state: eyes
