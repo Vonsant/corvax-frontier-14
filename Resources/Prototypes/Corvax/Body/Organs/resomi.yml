@@ -107,39 +107,6 @@
           Quantity: 5
 
 - type: entity
-  id: OrganResomiLungs
-  parent: BaseResomiOrgan
-  name: lungs
-  description: "Filters oxygen from an atmosphere, which is then sent into the bloodstream to be used as an electron carrier."
-  components:
-  - type: Sprite
-    state: lung-l      
-  - type: Lung
-  - type: Metabolizer
-    removeEmpty: true
-    solutionOnBody: false
-    solution: "Lung"
-    metabolizerTypes: [ Animal ]
-    groups:
-    - id: Gas
-      rateModifier: 100.0
-  - type: SolutionContainerManager
-    solutions:
-      organ:
-        reagents:
-        - ReagentId: Nutriment
-          Quantity: 10
-      Lung:
-        maxVol: 100.0
-        canReact: false
-      food:
-        maxVol: 5
-        reagents:
-        - ReagentId: Nutriment
-          Quantity: 5
-          
-
-- type: entity
   id: OrganResomiHeart
   parent: BaseResomiOrgan
   name: heart
@@ -204,19 +171,6 @@
   components:
   - type: Sprite
     state: kidney-l
-  - type: Metabolizer
-    maxReagents: 5
-    metabolizerTypes: [ Animal ]
-    removeEmpty: true
-
-- type: entity
-  id: OrganResomiKidneys
-  parent: BaseResomiOrgan
-  name: kidneys
-  description: "Filters toxins from the bloodstream."
-  components:
-  - type: Sprite
-    state: kidney-r
   - type: Metabolizer
     maxReagents: 5
     metabolizerTypes: [ Animal ]
