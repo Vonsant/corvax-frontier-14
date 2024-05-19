@@ -1,4 +1,4 @@
 ## Species Names
 
-species-name-vulpkanin = Vulpkanin
-species-name-goblin = Goblin
+species-name-vulpkanin = Вульпканин
+species-name-goblin = Гоблин
