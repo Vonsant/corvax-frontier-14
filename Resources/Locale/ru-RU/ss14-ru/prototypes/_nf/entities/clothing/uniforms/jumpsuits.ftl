@@ -40,3 +40,7 @@ ent-ClothingUniformJumpsuitPrivateSec = комбинезон частного о
     .desc = Специализированная униформа для частного охранника. Для взыскательных частных подрядчиков, нуждающихся в профессиональном внешнем виде.
 ent-ClothingUniformJumpsuitSr = униформа представителя станции
     .desc = Первоклассный наряд для представителя аванпоста Фронтира На пошив не было потрачено ни копейки, каждый шов - шедевр. Тот факт, что этот костюм был выдан, говорит о доверии Центрального командования к своему представителю на этом форпосте.
+ent-ClothingUniformJumpsuitGalaxyRed = red galaxy suit
+    .desc = Red lawsuit for those that conduct business on a galactic scale.
+ent-ClothingUniformJumpsuitGalaxyBlue = blue galaxy suit
+    .desc = Blue lawsuit or those that conduct business on a galactic scale.

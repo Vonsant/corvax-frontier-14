@@ -1,6 +1,6 @@
-uplink-kanabou-name = Канабо
-uplink-kanabou-desc = Оружие для тех, кому чужды тонкости. Отлично подходит для Они.
-uplink-rickenbacker4001-name = Костокрошитель 4001
-uplink-rickenbacker4001-desc = Мало кто сможет увернуться от биты, когда дело дойдёт до насилия.
-uplink-samurai-bundle-name = Самурайский синди-комплект
-uplink-samurai-bundle-desc = Набор, содержащий современную реплику полного комплекта Тосей-Гусоку.
+uplink-kanabou-name = Kanabou
+uplink-kanabou-desc = A weapon for those who wish to forgo subtlety. Particularly suited to oni.
+uplink-rickenbacker4001-name = Rickenbacker 4001
+uplink-rickenbacker4001-desc = When it comes down to it, there are very few people who will swing the bat.
+uplink-samurai-bundle-name = Syndicate samurai armor bundle
+uplink-samurai-bundle-desc = A bundle containing a modern replica of a full Tousei-Gusoku set.

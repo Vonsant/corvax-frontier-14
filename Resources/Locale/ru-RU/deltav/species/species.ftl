@@ -1,4 +1,4 @@
 ## Species Names
 
-species-name-vulpkanin = Вульпканин
-species-name-harpy = Гарпия
+species-name-vulpkanin = Vulpkanin
+species-name-harpy = Harpy

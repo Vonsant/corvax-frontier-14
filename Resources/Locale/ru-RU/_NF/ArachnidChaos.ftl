@@ -1,4 +1,4 @@
-action-name-spider-bite = Высасывать кровь
-no-blood-warning = Там нет крови!
-no-good-blood = Ты не можешь пить эту кровь!
-spider-biting = { CAPITALIZE($UsernameName) } начинает высасывать у { CAPITALIZE($targetName) } кровь!
+action-name-spider-bite = Bite for blood
+no-blood-warning = There no blood!
+no-good-blood = You cant drink this blood!
+spider-biting = { THE($UsernameName) } start biting { THE($targetName) } for his blood!

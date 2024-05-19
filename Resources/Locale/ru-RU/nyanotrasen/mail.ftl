@@ -1,29 +1,29 @@
-mail-recipient-mismatch = Имя или должность получателя не совпадают.
-mail-recipient-mismatch-name = Имя получателя не совпадает.
-mail-invalid-access = Имя и должность получателя совпадают, но доступ не соответствует ожидаемому..
-mail-locked = Противоугонный замок не снят. Используйте удостоверение личности получателя.
-mail-desc-far = Посылка.
-mail-desc-close = Посылка адресована { CAPITALIZE($name) }, { $job }. Последнее известное местоположение: { $station }.
-mail-desc-fragile = На ней красный ярлык[color=red]"ХРУПКОЕ"[/color].
-mail-desc-priority = Активирована [color=yellow]желтая лента противоугонного замка для приоритетных направлений[/color].
-mail-desc-priority-inactive = [color=#886600]Желтая лента противоугонного замка для приоритетных направлений[/color] не активна.
-mail-unlocked = Противоугонная система разблокирована.
-mail-unlocked-by-emag = Противоугонная система *БЗЗТ*.
-mail-unlocked-reward = Противоугонная система разблокирована.
-mail-penalty-lock = ПРОТИВОУГОННЫЙ ЗАМОК ВЗЛОМАН. СТАНЦИЯ БУДЕТ ОШТРАФОВАНА НА { $credits } СПЕСОСОВ.
-mail-penalty-fragile = ЦЕЛОСТНОСТЬ НАРУШЕНА. СТАНЦИЯ БУДЕТ ОШТРАФОВАНА НА { $credits } СПЕСОСОВ.
-mail-penalty-expired = СРОК ДОСТАВКИ ИСТЕК. СТАНЦИЯ БУДЕТ ОШТРАФОВАНА НА { $credits } СПЕСОСОВ.
-mail-item-name-unaddressed = посылка
-mail-item-name-addressed = посылка ({ $recipient })
-command-mailto-description = Добавить в очередь посылку для доставки сущности. Пример использования: mailto 1234 5678 false false. Содержимое целевого контейнера будет перенесено в почтовую посылку.
-command-mailto-help = Использование: { $command } <идентификатор сущности-получателя> <идентификатор сущности-контейнера> [хрупкость: true или false] [приоритетность: true или false]
-command-mailto-no-mailreceiver = Целевая сущность-получатель не имеет { $requiredComponent }.
-command-mailto-no-blankmail = Прототип { $blankMail } не существует. Что-то пошло не так. Обратитесь к программисту.
-command-mailto-bogus-mail = { $blankMail } не имеет { $requiredMailComponent }. Что-то пошло не так. Обратитесь к программисту.
-command-mailto-invalid-container = Целевая сущность-контейнер не имеет необходимого контейнера { $requiredContainer }.
-command-mailto-unable-to-receive = Не удалось подготовить целевую сущность-получателя к получению почты. Возможно, отсутствует идентификационный номер.
-command-mailto-no-teleporter-found = Не удалось сопоставить целевую сущность-получателя ни с одним почтовым телепортом станции. Получатель может находиться вне станции.
-command-mailto-success = Успех! Посылка добавлена в очередь для следующей телепортации через { $timeToTeleport } секунд.
-command-mailnow = Принудительно заставить все почтовые телепорты доставить следующий почтовые отправления как можно скорее. Это не обойдет лимит недоставленной почты.
-command-mailnow-help = Использование: { $command }
-command-mailnow-success = Успех! Все почтовые телепорты скоро доставят еще одни отправления!
+mail-recipient-mismatch = Recipient name or job does not match.
+mail-recipient-mismatch-name = Recipient name does not match.
+mail-invalid-access = Recipient name and job match, but access isn't as expected.
+mail-locked = The anti-tamper lock hasn't been removed. Tap the recipient's ID.
+mail-desc-far = A parcel of mail.
+mail-desc-close = A parcel of mail addressed to { CAPITALIZE($name) }, { $job }. Last known location: { $station }.
+mail-desc-fragile = It has a [color=red]red fragile label[/color].
+mail-desc-priority = The anti-tamper lock's [color=yellow]yellow priority tape[/color] is active.
+mail-desc-priority-inactive = The anti-tamper lock's [color=#886600]yellow priority tape[/color] is inactive.
+mail-unlocked = Anti-tamper system unlocked.
+mail-unlocked-by-emag = Anti-tamper system *BZZT*.
+mail-unlocked-reward = Anti-tamper system unlocked.
+mail-penalty-lock = ANTI-TAMPER LOCK BROKEN. STATION BANK ACCOUNT PENALIZED BY { $credits } SPESOS.
+mail-penalty-fragile = INTEGRITY COMPROMISED. STATION BANK ACCOUNT PENALIZED BY { $credits } SPESOS.
+mail-penalty-expired = DELIVERY PAST DUE. STATION BANK ACCOUNT PENALIZED BY { $credits } SPESOS.
+mail-item-name-unaddressed = mail
+mail-item-name-addressed = mail ({ $recipient })
+command-mailto-description = Queue a parcel to be delivered to an entity. Example usage: `mailto 1234 5678 false false`. The target container's contents will be transferred to an actual mail parcel.
+command-mailto-help = Usage: { $command } <recipient entityUid> <container entityUid> [is-fragile: true or false] [is-priority: true or false]
+command-mailto-no-mailreceiver = Target recipient entity does not have a { $requiredComponent }.
+command-mailto-no-blankmail = The { $blankMail } prototype doesn't exist. Something is very wrong. Contact a programmer.
+command-mailto-bogus-mail = { $blankMail } did not have { $requiredMailComponent }. Something is very wrong. Contact a programmer.
+command-mailto-invalid-container = Target container entity does not have a { $requiredContainer } container.
+command-mailto-unable-to-receive = Target recipient entity was unable to be setup for receiving mail. ID may be missing.
+command-mailto-no-teleporter-found = Target recipient entity was unable to be matched to any station's mail teleporter. Recipient may be off-station.
+command-mailto-success = Success! Mail parcel has been queued for next teleport in { $timeToTeleport } seconds.
+command-mailnow = Force all mail teleporters to deliver another round of mail as soon as possible. This will not bypass the undelivered mail limit.
+command-mailnow-help = Usage: { $command }
+command-mailnow-success = Success! All mail teleporters will be delivering another round of mail soon.

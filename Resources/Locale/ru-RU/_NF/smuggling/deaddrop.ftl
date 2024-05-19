@@ -1,6 +1,6 @@
-deaddrop-search-text = Осмотреть внимательнее
-deaddrop-security-report = В вашем секторе обнаружена контрабандная деятельность Синдиката
-deaddrop-hint-pretext = Десантный модуль Синдиката будет отправлен по следующим координатам:
-deaddrop-hint-posttext = Наши агенты внутри сектора заплатят любому, кто захочет провезти эти товары контрабандой на территорию NT.
-deaddrop-hint-name = аккуратно сложенная бумага
-deaddrop-hint-desc = Лист бумаги, аккуратно сложенный, чтобы поместиться в небольшом тайнике
+deaddrop-search-text = Search closer
+deaddrop-security-report = Syndicate smuggling activities detected in your sector
+deaddrop-hint-pretext = A Syndicate drop pod will be dispatched to the following coordinates:
+deaddrop-hint-posttext = Our agents on the inside will pay anyone willing to smuggle these goods into NT territory.
+deaddrop-hint-name = neatly folded paper
+deaddrop-hint-desc = A piece of paper, cleanly folded to fit into a small hiding space

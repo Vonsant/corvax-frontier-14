@@ -29,5 +29,7 @@ ent-ClothingHeadHatNfsdCampaign = рекламная шапка ДСБФ
 ent-ClothingHeadHatNfsdCampaignFilled = рекламная шапка ДСБФ
     .desc = Йаа-хууу, партнёр.
     .suffix = Заполненый
+ent-ClothingHeadHatNfsdSmallCampaign = nfsd campaign cap
+    .desc = yee partner.
 ent-ClothingHeadHatSrCap = кепка представителя станции
     .desc = Фуражка, выданная представителю аванпоста Фронтира. Постарайтесь не потерять её.

@@ -1,17 +1,17 @@
 ## UI
 
-shipyard-console-invalid-vessel = Не удается приобрести судно:
-shipyard-console-menu-title = Меню верфи
-shipyard-console-docking = Шаттл { $vessel } капитана { $owner } в пути, расчётное время прибытия 10 секунд.
-shipyard-console-leaving = Шаттл { $vessel } капитана { $owner } продано { $player }.
-shipyard-console-docking-secret = Обнаружено незарегистрированное судно, заходящее в ваш сектор.
-shipyard-console-leaving-secret = Обнаружено незарегистрированное судно, покидающее ваш сектор.
-shipyard-commands-purchase-desc = Запускает и закрепляет на FTL указанный шаттл из файла сетки.
-shipyard-console-no-idcard = Нет ID карты
-shipyard-console-already-deeded = ID карта уже есть
-shipyard-console-invalid-station = Недействительная станция
-shipyard-console-no-bank = Банковский счет не найден
-shipyard-console-no-deed = Судовой документ не найден
-shipyard-console-sale-reqs = Судно должно быть пришвартовано, а весь экипаж высажен на сушу
-shipyard-console-deed-label = Зарегистрированное судно:
-shipyard-console-appraisal-label = Предполагаемая стоимость шаттла:{ " " }
+shipyard-console-invalid-vessel = Cannot purchase vessel:
+shipyard-console-menu-title = Shipyard Menu
+shipyard-console-docking = Captain { $owner } shuttle { $vessel } en route, eta 10 seconds.
+shipyard-console-leaving = Captain { $owner } shuttle { $vessel } sold by { $player }.
+shipyard-console-docking-secret = Unregistered vessel detected entering your sector.
+shipyard-console-leaving-secret = Unregistered vessel detected leaving your sector.
+shipyard-commands-purchase-desc = Spawns and FTL docks a specified shuttle from a grid file.
+shipyard-console-no-idcard = No ID card present
+shipyard-console-already-deeded = ID card already has a Deed
+shipyard-console-invalid-station = Not a valid station
+shipyard-console-no-bank = No bank account found
+shipyard-console-no-deed = No ship deed found
+shipyard-console-sale-reqs = Ship must be docked and all crew disembarked
+shipyard-console-deed-label = Registered Ship:
+shipyard-console-appraisal-label = Shuttle Estimated Value:{ " " }

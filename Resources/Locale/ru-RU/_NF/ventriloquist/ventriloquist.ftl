@@ -1,6 +1,6 @@
-ventriloquist-rock-grasp-hand = Вы крепко сжимаете ручной камень.
-ventriloquist-rock-release-hand = Ты отпускаешь свой ручной камень.
-ventriloquist-rock-grasped-hand = Вас схватили.
-ventriloquist-rock-released-hand = Вас освободили.
-ventriloquist-rock-role-name = Ручной камень
-ventriloquist-rock-role-description = Вы - любимый минерал.
+ventriloquist-rock-grasp-hand = You firmly grasp the pet rock.
+ventriloquist-rock-release-hand = You release your grip on the pet rock.
+ventriloquist-rock-grasped-hand = You have been grasped.
+ventriloquist-rock-released-hand = You been released.
+ventriloquist-rock-role-name = A pet rock
+ventriloquist-rock-role-description = You are a pet mineral.

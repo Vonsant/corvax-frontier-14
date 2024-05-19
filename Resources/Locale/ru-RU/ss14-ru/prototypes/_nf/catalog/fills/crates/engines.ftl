@@ -1,3 +1,7 @@
+ent-CrateEngineeringSmallThruster = small thruster crate
+    .desc = { ent-CrateEngineering.desc }
+ent-CrateEngineeringSmallGyroscope = small gyroscope crate
+    .desc = { ent-CrateEngineering.desc }
 ent-CrateGyroscope = { ent-CrateEngineering }
     .desc = { ent-CrateEngineering.desc }
 ent-CrateThruster = { ent-CrateEngineering }

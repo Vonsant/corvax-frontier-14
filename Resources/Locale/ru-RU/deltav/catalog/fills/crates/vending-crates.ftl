@@ -1,2 +1,2 @@
-ent-CrateVendingMachineRestockPrideFilled = Набор пополнения Радуж-О-Мата
-    .desc = Содержит два набора пополнения Радуж-О-Мата.
+ent-CrateVendingMachineRestockPrideFilled = Pride-O-Mat restock crate
+    .desc = Contains two restock boxes for a Pride-O-Mat.

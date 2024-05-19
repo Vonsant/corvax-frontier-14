@@ -4,6 +4,8 @@ ent-VendingMachineAstroVend = АстроВенд
     .desc = Необходимое снаряжение для космонавтов.
 ent-VendingMachineFlatpackVend = Упак-О-Мат
     .desc = Необходимое снаряжение для космонавтов.
+ent-VendingMachineExpeditionaryFlatpackVend = Expeditionary FlatpackVend
+    .desc = Essential tech for the space-men on an expedition
 ent-VendingMachineSyndieContraband = КонтраВенд
     .desc = Разыскивается по всему фронтиру!
 ent-VendingMachineBountyVend = КонтрактВенд
@@ -16,7 +18,14 @@ ent-VendingMachineAutoTuneVend = МузВенд
     .desc = В космосе никто не слышит ваш крик? Пусть услышат вашу музыку!
 ent-VendingMachinePottedPlantVend = Трав-О-Маг
     .desc = Иногда растения в горшках самые лучшие напарники, которых можно купить за деньги.
-ent-VendingMachineNFSDDrobe = ДСБФдроб
+ent-VendingMachineNfsdDrobe = NFSDDrobe
+    .desc = A vending machine for NFSD and NFSD clothing!
+ent-VendingMachineNfsdTech = NFSDTech
+    .desc = A vending machine for NFSD and NFSD tech!
+ent-VendingMachineCartNfsd = { ent-['BaseStructureIndestructible', 'BaseStructureAccessReaderImmuneToEmag', 'VendingMachineCart'] }
+
+  .suffix = NFSD
+  .desc = { ent-['BaseStructureIndestructible', 'BaseStructureAccessReaderImmuneToEmag', 'VendingMachineCart'].desc }ent-VendingMachineNFSDDrobe = ДСБФдроб
     .desc = Торговый аппарат для ДСБФ.
 ent-VendingMachineNFSDTec = ДСБФтех
     .desc = Торговый аппарат для ДСБФ.

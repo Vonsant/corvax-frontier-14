@@ -6,6 +6,9 @@ ent-ClothingBackpackPsychologistFilled = { ent-ClothingBackpackMedical }
     .desc = { ent-ClothingBackpackMedical.desc }
 ent-ClothingBackpackStcFilled = { ent-ClothingBackpack }
     .desc = { ent-ClothingBackpack.desc }
+ent-ClothingBackpackIanSrFilled = { ent-['ClothingBackpackIan', 'ClothingBackpackSrFilled'] }
+
+  .desc = { ent-['ClothingBackpackIan', 'ClothingBackpackSrFilled'].desc }
 ent-ClothingBackpackPilotFilled = { ent-ClothingBackpackPilot }
     .desc = { ent-ClothingBackpackPilot.desc }
 ent-ClothingBackpackERTMailCarrierFilled = { ent-ClothingBackpackERTMailCarrier }

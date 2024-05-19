@@ -1,14 +1,18 @@
-ent-ClothingBackpackSatchelMercenaryFilled = { ent-ClothingBackpackSatchelMercenary }
-    .desc = { ent-ClothingBackpackSatchelMercenary.desc }
-ent-ClothingBackpackSatchelReporterFilled = { ent-ClothingBackpackSatchel }
+ent-ClothingBackpackSatchelMercenaryFilled = { ent-['ClothingBackpackSatchelMercenary', 'ClothingBackpackSatchelFilled'] }
+
+  .desc = { ent-['ClothingBackpackSatchelMercenary', 'ClothingBackpackSatchelFilled'].desc }
+ent-ClothingBackpackSatchelPilotFilled = { ent-['ClothingBackpackSatchelPilot', 'ClothingBackpackSatchelFilled'] }
+
+  .desc = { ent-['ClothingBackpackSatchelPilot', 'ClothingBackpackSatchelFilled'].desc }
+ent-ClothingBackpackSatchelSrFilled = { ent-ClothingBackpackSatchel }
     .desc = { ent-ClothingBackpackSatchel.desc }
-ent-ClothingBackpackSatchelPsychologistFilled = { ent-ClothingBackpackSatchelMedical }
-    .desc = { ent-ClothingBackpackSatchelMedical.desc }
-ent-ClothingBackpackSatchelLawyerFilled = { ent-ClothingBackpackSatchel }
-    .desc = { ent-ClothingBackpackSatchel.desc }
-ent-ClothingBackpackSatchelStcFilled = { ent-ClothingBackpackSatchel }
-    .desc = { ent-ClothingBackpackSatchel.desc }
-ent-ClothingBackpackSatchelPilotFilled = { ent-ClothingBackpackSatchelPilot }
-    .desc = { ent-ClothingBackpackSatchelPilot.desc }
-ent-ClothingBackpackSatchelOfficerFilled = { ent-ClothingBackpackSatchelnfsd }
-    .desc = { ent-ClothingBackpackSatchelnfsd.desc }
+ent-ClothingBackpackSatchelNfsdBrownFilled = { ent-ClothingBackpackSatchelNfsdBrown }
+    .desc = { ent-ClothingBackpackSatchelNfsdBrown.desc }
+ent-ClothingBackpackSatchelNfsdCreamFilled = { ent-ClothingBackpackSatchelNfsdBrownFilled }
+    .desc = { ent-ClothingBackpackSatchelNfsdBrownFilled.desc }
+ent-ClothingBackpackSatchelNfsdBrownDetectiveFilled = { ent-ClothingBackpackSatchelNfsdBrown }
+    .desc = { ent-ClothingBackpackSatchelNfsdBrown.desc }
+ent-ClothingBackpackSatchelNfsdBrownRadioFilled = { ent-ClothingBackpackSatchelNfsdBrown }
+    .desc = { ent-ClothingBackpackSatchelNfsdBrown.desc }
+ent-ClothingBackpackSatchelNfsdBrownSheriffFilled = { ent-ClothingBackpackSatchelNfsdBrown }
+    .desc = { ent-ClothingBackpackSatchelNfsdBrown.desc }

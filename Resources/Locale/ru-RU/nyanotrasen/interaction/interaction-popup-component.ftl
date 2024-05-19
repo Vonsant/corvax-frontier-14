@@ -1,4 +1,4 @@
 ## Petting animals
 
-petting-failure-pibble = Вы тянетесь к {$target}, и {SUBJECT($target)} кусает вас!
-petting-failure-pibble = Вы тянетесь к { $target }, но передумываете на пол пути.
+#petting-failure-pibble = You reach out to pet {THE($target)}, and {SUBJECT($target)} lunges at you!
+petting-failure-pibble = You reach out to pet { THE($target) }, but think better of it.

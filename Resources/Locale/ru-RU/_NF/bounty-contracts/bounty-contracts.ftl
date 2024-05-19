@@ -1,48 +1,48 @@
 # General stuff
 bounty-contracts-author = { $name } ({ $job })
-bounty-contracts-unknown-author-name = Неизвестно
-bounty-contracts-unknown-author-job = Неизвестно
+bounty-contracts-unknown-author-name = Unknown
+bounty-contracts-unknown-author-job = Unknown
 # Caregories
-bounty-contracts-category-criminal = Разыскиваемый Преступник
-bounty-contracts-category-vacancy = Вакансия на работу
-bounty-contracts-category-construction = Строительство
-bounty-contracts-category-service = Услуга
-bounty-contracts-category-other = Другие
+bounty-contracts-category-criminal = Wanted Criminal
+bounty-contracts-category-vacancy = Job Vacancy
+bounty-contracts-category-construction = Construction
+bounty-contracts-category-service = Service
+bounty-contracts-category-other = Other
 # Cartridge
-bounty-contracts-program-name = Контракты на вознаграждение
+bounty-contracts-program-name = Bounty Contracts
 
 ## Radio Announcements
 
-bounty-contracts-radio-name = Услуга контракта на вознаграждение
-bounty-contracts-radio-create = Новая награда назначенная за "{ $target }". Награда: { $reward }$.
+bounty-contracts-radio-name = Bounty Contracts Service
+bounty-contracts-radio-create = New bounty placed for "{ $target }". Reward: { $reward }$.
 
 ## UI - List contracts
 
-bounty-contracts-ui-list-no-contracts = Награды пока не объявлены...
-bounty-contracts-ui-list-no-description = Никакого дополнительного описания не предоставлено...
-bounty-contracts-ui-list-create = Новая награда
-bounty-contracts-ui-list-refresh = Обновить
-bounty-contracts-ui-list-category = Категория: { $category }
-bounty-contracts-ui-list-vessel = Судно: { $vessel }
-bounty-contracts-ui-list-author = Опубликовано: { $author }
-bounty-contracts-ui-list-remove = Удалено
+bounty-contracts-ui-list-no-contracts = No bounties posted yet...
+bounty-contracts-ui-list-no-description = No additional description provided...
+bounty-contracts-ui-list-create = New Bounty
+bounty-contracts-ui-list-refresh = Refresh
+bounty-contracts-ui-list-category = Category: { $category }
+bounty-contracts-ui-list-vessel = Vessel: { $vessel }
+bounty-contracts-ui-list-author = Posted by: { $author }
+bounty-contracts-ui-list-remove = Remove
 
 ## UI - Create contract
 
-bounty-contracts-ui-create-category = Категория:{ " " }
-bounty-contracts-ui-create-name = Имя:{ " " }
-bounty-contracts-ui-create-custom = Настроить
-bounty-contracts-ui-create-name-placeholder = Название награды...
-bounty-contracts-ui-create-dna = ДНК:{ " " }
-bounty-contracts-ui-create-vessel = Судно:{ " " }
-bounty-contracts-ui-create-vessel-unknown = Неизвестно
-bounty-contracts-ui-create-vessel-placeholder = Название судна...
-bounty-contracts-ui-create-reward = Награда:{ " " }
+bounty-contracts-ui-create-category = Category:{ " " }
+bounty-contracts-ui-create-name = Name:{ " " }
+bounty-contracts-ui-create-custom = Custom
+bounty-contracts-ui-create-name-placeholder = Bounty name...
+bounty-contracts-ui-create-dna = DNA:{ " " }
+bounty-contracts-ui-create-vessel = Vessel:{ " " }
+bounty-contracts-ui-create-vessel-unknown = Unknown
+bounty-contracts-ui-create-vessel-placeholder = Vessel name...
+bounty-contracts-ui-create-reward = Reward:{ " " }
 bounty-contracts-ui-create-reward-currency = $
-bounty-contracts-ui-create-description = Описание:
-bounty-contracts-ui-create-description-placeholder = Дополнительные подробности...
-bounty-contracts-ui-create-button-cancel = Отменить
-bounty-contracts-ui-create-button-create = Создать
-bounty-contracts-ui-create-error-invalid-price = Ошибка: Неверная цена!
-bounty-contracts-ui-create-error-no-name = Ошибка: Неверное название награды!
-bounty-contracts-ui-create-ready = Ваш контракт готов к публикации!
+bounty-contracts-ui-create-description = Description:
+bounty-contracts-ui-create-description-placeholder = Additional details...
+bounty-contracts-ui-create-button-cancel = Cancel
+bounty-contracts-ui-create-button-create = Create
+bounty-contracts-ui-create-error-invalid-price = Error: Invalid price!
+bounty-contracts-ui-create-error-no-name = Error: Invalid bounty name!
+bounty-contracts-ui-create-ready = Your contract is ready to be published!

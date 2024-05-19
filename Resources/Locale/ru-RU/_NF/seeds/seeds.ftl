@@ -1,5 +1,5 @@
 # Seeds
-seeds-spesos-name = спесо
-seeds-spesos-display-name = спесо
-seeds-pear-name = груша
-seeds-pear-display-name = груша
+seeds-spesos-name = spesos
+seeds-spesos-display-name = spesos
+seeds-pear-name = pear
+seeds-pear-display-name = pear

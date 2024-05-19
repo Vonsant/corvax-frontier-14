@@ -1,3 +1,5 @@
+ent-SpawnPointContractor = contractor
+    .desc = { ent-SpawnPointJobBase.desc }
 ent-SpawnPointMercenary = mercenary
     .desc = { ent-SpawnPointJobBase.desc }
 ent-SpawnPointPilot = pilot

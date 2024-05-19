@@ -1,3 +1,3 @@
-carry-verb = Нести
-carry-too-heavy = Вы недостаточно сильны.
-carry-started = { CAPITALIZE($carrier) } пытается вас поднять!
+carry-verb = Carry
+carry-too-heavy = You're not strong enough.
+carry-started = { THE($carrier) } is trying to pick you up!

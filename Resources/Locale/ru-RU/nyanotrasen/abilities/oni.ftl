@@ -1,2 +1,2 @@
-oni-gun-fire = Вы не можете стрелять из оружия!
-namepreset-x-no-y = { $last }-не-{ $first }
+oni-gun-fire = You can't fire guns!
+namepreset-x-no-y = { $last }-no-{ $first }

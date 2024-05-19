@@ -1,11 +1,10 @@
 ent-MobSiliconBase = { "" }
     .desc = { "" }
-ent-MobSiliconBaseVehicle = { ent-BaseVehicle }
-    .desc = { ent-BaseVehicle.desc }
-ent-MobTaxiBot = таксибот
-    .desc = Подвезти?
-ent-MobSupplyBot = каргобот
-    .desc = Доставляет!
+ent-MobSiliconBaseVehicle = { ent-['MobSiliconBase', 'BaseVehicle'] }
+
+  .desc = { ent-['MobSiliconBase', 'BaseVehicle'].desc }
+ent-MobTaxiBot = taxibot
+    .desc = Give a ride?
 ent-MobHonkBot = хонкбот
     .desc = Ужасающе.
 ent-MobJonkBot = кринжбот
@@ -16,3 +15,5 @@ ent-MobMedibot = медибот
     .desc = Не заменит врача, но лучше, чем ничего.
 ent-MobMimeBot = мимбот
     .desc = Почему бы не помахать мимботу?
+ent-MobSupplyBot = грузобот
+    .desc = Доставляет грузы!

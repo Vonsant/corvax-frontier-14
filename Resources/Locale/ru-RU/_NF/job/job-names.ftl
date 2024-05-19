@@ -1,39 +1,36 @@
 # Frontier
-job-name-bailiff = Инструктор
-job-name-brigmedic = Бригмедик
-job-name-cadet-nf = Кадет
-job-name-contractor = Авантюрист
-job-name-deputy = Помощник Шерифа
-job-name-detective-nf = Детектив
-job-name-ertmailcarrier = ОБР почтальон
-job-name-mercenary = Наёмник
-job-name-pilot = Пилот
-job-name-pirate = Пират
-job-name-pirate-captain = Пиратский Капитан
-job-name-pirate-first-mate = Пиратский Боцман
-job-name-security-guard = Охранник
-job-name-senior-officer = Сержант
-job-name-sheriff = Шериф
-job-name-stc = Диспетчер Фронтира
-job-name-sr = Представитель Фронтира
-
+job-name-bailiff = Bailiff
+job-name-brigmedic = Brigmedic
+job-name-cadet-nf = Cadet
+job-name-contractor = Contractor
+job-name-deputy = Deputy
+job-name-detective-nf = Detective
+job-name-ertmailcarrier = ERT Mail Carrier
+job-name-mercenary = Mercenary
+job-name-pilot = Pilot
+job-name-pirate = Pirate
+job-name-pirate-captain = Pirate Captain
+job-name-pirate-first-mate = Pirate First Mate
+job-name-security-guard = Security Guard
+job-name-senior-officer = Sergeant
+job-name-sheriff = Sheriff
+job-name-stc = Station Traffic Controller
+job-name-sr = Station Representative
 # Role timers - Make these alphabetical or I cut you
-JobERTMailCarrier = ОБР почтальон
-JobMercenary = Наёмник
-JobPilot = Пилот
-JobPirate = Пират
-JobPirateCaptain = Пиратский Капитан
-JobPirateFirstMate = Пиратский Боцман
-JobSecurityGuard = Охранник
-JobSTC = Диспетчер Фронтира
-
+JobERTMailCarrier = ERT Mail Carrier
+JobMercenary = Mercenary
+JobPilot = Pilot
+JobPirate = Pirate
+JobPirateCaptain = Pirate Captain
+JobPirateFirstMate = Pirate First Mate
+JobSecurityGuard = Security Guard
+JobSTC = Station Traffic Controller
 # Upstream Removed
-job-name-senior-engineer = Старший Инженер
-job-name-senior-researcher = Научный Руководитель
-job-name-senior-physician = Ведущий Врач
-job-name-senior-officer = Сержант
-
-JobSeniorEngineer = Старший Инженер
-JobSeniorOfficer = Сержант
-JobSeniorPhysician = Ведущий Врач
-JobSeniorResearcher = Научный Руководитель
+job-name-senior-engineer = Senior Engineer
+job-name-senior-researcher = Senior Researcher
+job-name-senior-physician = Senior Physician
+job-name-senior-officer = Sergeant
+JobSeniorEngineer = Senior Engineer
+JobSeniorOfficer = Sergeant
+JobSeniorPhysician = Senior Physician
+JobSeniorResearcher = Senior Researcher

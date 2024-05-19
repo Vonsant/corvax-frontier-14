@@ -8,3 +8,7 @@ ent-ClothingBeltNfsd = пояс ДСБФ
     .desc = Пояс для тактических операций.
 ent-ClothingBeltNfsdWebbing = РПС ДСБФ
     .desc = Тактический боевой разгрузочный жилет.
+ent-ClothingBeltCultForceField = cult runic belt buckle
+    .desc = { ent-ClothingBeltBase.desc }
+ent-ClothingBeltCultWebbing = cult webbing
+    .desc = A webbing with pockets lined with waterproof (water, huh?)  material.

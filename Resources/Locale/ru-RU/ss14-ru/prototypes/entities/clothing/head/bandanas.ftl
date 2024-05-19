@@ -16,8 +16,9 @@ ent-ClothingHeadBandRed = красная бандана
     .desc = Красная бандана, чтобы выглядеть круто.
 ent-ClothingHeadBandSkull = бандана с черепом
     .desc = Бандана с черепом, чтобы выглядеть ещё круче.
-ent-ClothingHeadBandMercenary = бандана наёмника
-    .desc = { ent-ClothingMaskBandMerc.desc }
+ent-ClothingHeadBandMercenary = mercenary bandana
+
+  .desc = { ent-['ClothingHeadBandBase', 'ClothingMaskBandMerc'].desc }
 ent-ClothingHeadBandMerc = бандана наёмника
     .desc = Для защиты головы от солнца, насекомых и других угроз сверху.
 ent-ClothingHeadBandBrown = коричневая бандана
