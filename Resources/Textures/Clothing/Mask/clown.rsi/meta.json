@@ -5,7 +5,7 @@
     "size": {
         "x": 32,
         "y": 32,
-    "states": [
+        "states": [
             {
                 "name": "equipped-MASK-hamster",
                 "directions": 4
@@ -39,3 +39,4 @@
             }
         ]
     }
+}
