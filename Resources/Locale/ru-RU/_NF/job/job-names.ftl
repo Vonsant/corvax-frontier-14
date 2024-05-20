@@ -1,9 +1,9 @@
 # Frontier
-job-name-bailiff = помощник шерифа
-job-name-brigmedic = полевой врач
+job-name-bailiff = бейлиф
+job-name-brigmedic = коронер
 job-name-cadet-nf = кадет
 job-name-contractor = авантюрист
-job-name-deputy = капрал
+job-name-deputy = рейнджер
 job-name-detective-nf = детектив
 job-name-ertmailcarrier = ОБР почтальон
 job-name-mercenary = наёмник

@@ -1,18 +1,15 @@
 ent-SuitStorageWallmountParamedic = { ent-SuitStorageParamedic }
     .desc = { ent-SuitStorageParamedic.desc }
-ent-SuitStorageWallmountHydro = { ent-['SuitStorageWallmount', 'SuitStorageHydro'] }
-
-  .desc = { ent-['SuitStorageWallmount', 'SuitStorageHydro'].desc }
+ent-SuitStorageWallmountHydro = { ent-SuitStorageHydro }
+  .desc = { ent-SuitStorageHydro.desc }
 ent-SuitStorageWallmountBrigmedic = { ent-SuitStorageBrigmedic }
     .desc = { ent-SuitStorageBrigmedic.desc }
-ent-SuitStorageWallmountMining = { ent-['SuitStorageWallmount', 'SuitStorageMining'] }
-
-  .desc = { ent-['SuitStorageWallmount', 'SuitStorageMining'].desc }
+ent-SuitStorageWallmountMining = { ent-SuitStorageMining }
+  .desc = { ent-SuitStorageMining.desc }
 ent-SuitStorageWallmountQuartermaster = { ent-SuitStorageQuartermaster }
     .desc = { ent-SuitStorageQuartermaster.desc }
-ent-SuitStorageWallmountScaf = { ent-['SuitStorageWallmount', 'SuitStorageScaf'] }
-
-  .desc = { ent-['SuitStorageWallmount', 'SuitStorageScaf'].desc }
+ent-SuitStorageWallmountScaf = { ent-SuitStorageScaf }
+  .desc = { ent-SuitStorageScaf.desc }
 ent-SuitStorageWallmountMercenary = { ent-SuitStorageMercenary }
     .desc = { ent-SuitStorageMercenary.desc }
 ent-SuitStorageWallmountPilot = { ent-SuitStoragePilot }
@@ -71,13 +68,11 @@ ent-SuitStorageWallmountSergeant = { ent-SuitStorageSergeant }
     .desc = { ent-SuitStorageSergeant.desc }
 ent-SuitStorageWallmountBailiff = { ent-SuitStorageBailiff }
     .desc = { ent-SuitStorageBailiff.desc }
-ent-SuitStorageWallmountNfsdCombat = { ent-['SuitStorageWallmount', 'SuitStorageNfsdCombat'] }
-
-  .desc = { ent-['SuitStorageWallmount', 'SuitStorageNfsdCombat'].desc }
-ent-SuitStorageWallmountNfsdCommand = { ent-['SuitStorageWallmount', 'SuitStorageNfsdCommand'] }
-
-  .desc = { ent-['SuitStorageWallmount', 'SuitStorageNfsdCommand'].desc }
-ent-SuitStorageWallmountMailCarrier = { ent-['SuitStorageWallmount', 'SuitStorageMailCarrier'] }
-
-  .desc = { ent-['SuitStorageWallmount', 'SuitStorageMailCarrier'].desc }ent-SuitStorageWallmountSheriff = { ent-SuitStorageSheriff }
+ent-SuitStorageWallmountNfsdCombat = { ent-SuitStorageNfsdCombat }
+  .desc = { ent-SuitStorageNfsdCombat.desc }
+ent-SuitStorageWallmountNfsdCommand = { ent-SuitStorageNfsdCommand }
+  .desc = { ent-SuitStorageNfsdCommand.desc }
+ent-SuitStorageWallmountMailCarrier = { ent-SuitStorageMailCarrier }
+  .desc = { ent-SuitStorageMailCarrier.desc }
+ent-SuitStorageWallmountSheriff = { ent-SuitStorageSheriff }
     .desc = { ent-SuitStorageSheriff.desc }

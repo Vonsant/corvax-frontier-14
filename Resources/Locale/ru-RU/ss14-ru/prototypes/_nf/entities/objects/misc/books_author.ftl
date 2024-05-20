@@ -1,8 +1,8 @@
-ent-BookScienceTextbook = scientific academia vol.i
-    .desc = Volume One of the Science Textbook series.
-ent-BookSciencePhilospher = cooking with the philospher's stone
-    .desc = A CentCom issued mixologist's book? All in the name of science, I guess.
-ent-BookScienceDwarven = dwarven guide to free thinking
-    .desc = A CentCom issued account of a fisherman's journey. They really expect you to read this?
-ent-BookScienceClown = honker's hilarious tight-five
-    .desc = A CentCom issued Standup Comedy Script..? This is getting ridiculous!
+ent-BookScienceTextbook = Кратко о Науке, Том I
+    .desc = Первый том краткого трактата о науке.
+ent-BookSciencePhilospher = Готовим с философским камнем
+    .desc = Во имя науки, я полагаю.
+ent-BookScienceDwarven = Дварфийское руководство по свободному мышлению
+    .desc = Вы правда хотите это прочесть?
+ent-BookScienceClown = Шутки от Хонкера: Пять Минут Смеха
+    .desc = Это даже не смешно.

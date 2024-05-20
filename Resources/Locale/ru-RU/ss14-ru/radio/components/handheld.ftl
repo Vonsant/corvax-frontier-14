@@ -1,7 +1,7 @@
-handheld-radio-menu-title = Handheld radio.
-handheld-radio-current-text-frequency = Broadcast frequency
-handheld-radio-button-text-mic = Mic.
-handheld-radio-button-text-speaker = Speak
+handheld-radio-menu-title = Портативная рация.
+handheld-radio-current-text-frequency = Частота вещания
+handheld-radio-button-text-mic = Микр.
+handheld-radio-button-text-speaker = Динам.
 handheld-radio-flavor-text-left =
-    Wiretapping of closed frequencies
-    is punishable by law.
+    Прослушивание закрытых частот
+    преследуется по закону.
