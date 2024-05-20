@@ -1,4 +1,4 @@
-ent-BaseMobXenoslime = Urist McXenoclime
+ent-BaseMobXenoslime = Урист МакКсенослайм
     .desc = { ent-BaseMobSpeciesOrganic.desc }
-ent-MobXenoslimeDummy = Urist McHands
-    .desc = A dummy Xenoslime meant to be used in character setup.
+ent-MobXenoslimeDummy = Урист МакКсенослайм
+    .desc = Кукла для кастомитзации.

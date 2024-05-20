@@ -1,4 +1,4 @@
-ent-BaseMobHumanoidResomi = Urist McResomi
+ent-BaseMobHumanoidResomi = Урист МакРезоми
     .desc = { ent-BaseMobSpeciesOrganic.desc }
-ent-MobHumanoidResomiDummy = Urist McResomi
-    .desc = A dummy Resomi meant to be used in character setup.
+ent-MobHumanoidResomiDummy = Урист МакРезоми
+    .desc = Кукла для кастомизации.

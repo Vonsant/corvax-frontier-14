@@ -1,6 +1,6 @@
-ent-JetpackMining = jetpack
-    .suffix = Empty
+ent-JetpackMining = джетпак
+    .suffix = Пустой
     .desc = { ent-BaseJetpack.desc }
-ent-JetpackMiningFilled = jetpack
-    .suffix = Filled
+ent-JetpackMiningFilled = джетпак
+    .suffix = Заполненный
     .desc = { ent-JetpackMining.desc }

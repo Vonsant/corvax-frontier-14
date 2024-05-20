@@ -1,2 +1,2 @@
-ent-GemsBag = gems bag
-    .desc = A bag made of polyester, covered with a layer of ash, for storing gems.
+ent-GemsBag = сумка для драгоценных камней
+    .desc = Сумка из полиэстера, покрытая слоем пыли, для хранения драгоценных камней.
