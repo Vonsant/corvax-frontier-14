@@ -47,11 +47,8 @@ ent-BoxEncryptionKeySecurity = коробка ключей шифрования 
     .desc = { ent-BoxEncryptionKeyPassenger.desc }
 ent-BoxEncryptionKeyService = коробка ключей шифрования сервисного отдела
     .desc = { ent-BoxEncryptionKeyPassenger.desc }
-# Corvax-HiddenDesc-Start
-ent-BoxEncryptionKeySyndie = коробка ключей шифрования
-    .suffix = коробка ключей шифрования Синдиката
-    .desc = { ent-BoxEncryptionKeyPassenger.desc }
-# Corvax-HiddenDesc-End
+ent-BoxEncryptionKeySyndie = коробка ключей шифрования синдиката
+    .desc = Два ключа шифрования синдиката по цене одного. Для простоты использования уменьшена.
 ent-BoxDeathRattleImplants = коробка имплантов Предсмертный хрип
     .desc = Шесть имплантов Предсмертный хрип и портативные GPS-навигаторы для всего отряда.
 ent-BoxLeadLined = освинцованная коробка
