@@ -1,9 +1,7 @@
-ent-ClothingBackpackDuffelMercenaryFilled = { ent-['ClothingBackpackDuffelMercenary', 'ClothingBackpackDuffelFilled'] }
-
-  .desc = { ent-['ClothingBackpackDuffelMercenary', 'ClothingBackpackDuffelFilled'].desc }
-ent-ClothingBackpackDuffelPilotFilled = { ent-['ClothingBackpackDuffelPilot', 'ClothingBackpackDuffelFilled'] }
-
-  .desc = { ent-['ClothingBackpackDuffelPilot', 'ClothingBackpackDuffelFilled'].desc }
+ent-ClothingBackpackDuffelMercenaryFilled = { ent-ClothingBackpackDuffelMercenary }
+  .desc = { ent-ClothingBackpackDuffelMercenary.desc }
+ent-ClothingBackpackDuffelPilotFilled = { ent-ClothingBackpackDuffelPilot }
+  .desc = { ent-ClothingBackpackDuffelPilot.desc }
 ent-ClothingBackpackDuffelSrFilled = { ent-ClothingBackpackDuffel }
     .desc = { ent-ClothingBackpackDuffel.desc }
 ent-ClothingBackpackDuffelNfsdBrownFilled = { ent-ClothingBackpackDuffelNfsdBrown }

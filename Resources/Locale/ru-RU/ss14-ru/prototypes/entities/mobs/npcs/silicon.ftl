@@ -1,10 +1,9 @@
 ent-MobSiliconBase = { "" }
     .desc = { "" }
-ent-MobSiliconBaseVehicle = { ent-['MobSiliconBase', 'BaseVehicle'] }
-
-  .desc = { ent-['MobSiliconBase', 'BaseVehicle'].desc }
-ent-MobTaxiBot = taxibot
-    .desc = Give a ride?
+ent-MobSiliconBaseVehicle = { ent-MobSiliconBase }
+  .desc = { ent-MobSiliconBase.desc }
+ent-MobTaxiBot = таксибот
+    .desc = Лучшие подкаты.
 ent-MobHonkBot = хонкбот
     .desc = Ужасающе.
 ent-MobJonkBot = кринжбот

@@ -1,7 +1,6 @@
-ent-SimpleArtifactMobBase = { ent-['MobAtmosNF', 'BaseSimpleMob', 'MobCombat', 'FlyingMobBase'] }
-
+ent-SimpleArtifactMobBase = { ent-BaseSimpleMob }
   .suffix = AI
-  .desc = { ent-['MobAtmosNF', 'BaseSimpleMob', 'MobCombat', 'FlyingMobBase'].desc }
+  .desc = { ent-BaseSimpleMob.desc }
 ent-BaseMobArtifactConstruct = artifact construct
     .desc = { ent-SimpleArtifactMobBase.desc }
 ent-MobGrimForged = Grimforged Construct

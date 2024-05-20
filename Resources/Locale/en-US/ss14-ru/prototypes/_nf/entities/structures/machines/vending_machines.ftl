@@ -22,7 +22,6 @@ ent-VendingMachineNfsdDrobe = NFSDDrobe
     .desc = A vending machine for NFSD and NFSD clothing!
 ent-VendingMachineNfsdTech = NFSDTech
     .desc = A vending machine for NFSD and NFSD tech!
-ent-VendingMachineCartNfsd = { ent-['BaseStructureIndestructible', 'BaseStructureAccessReaderImmuneToEmag', 'VendingMachineCart'] }
-
+ent-VendingMachineCartNfsd = { ent-VendingMachineCart }
   .suffix = NFSD
-  .desc = { ent-['BaseStructureIndestructible', 'BaseStructureAccessReaderImmuneToEmag', 'VendingMachineCart'].desc }
+  .desc = { ent-VendingMachineCart.desc }

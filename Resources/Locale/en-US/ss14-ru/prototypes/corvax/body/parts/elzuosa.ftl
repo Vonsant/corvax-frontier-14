@@ -1,27 +1,18 @@
 ent-PartElzuosa = elzuosa body part
-
-  .desc = { ent-['BaseItem', 'BasePart'].desc }
+  .desc = { ent-BasePart.desc }
 ent-TorsoElzuosa = elzuosa torso
-
-  .desc = { ent-['PartElzuosa', 'BaseTorso'].desc }
+  .desc = { ent-BaseTorso.desc }
 ent-HeadElzuosa = elzuosa head
-
-  .desc = { ent-['PartElzuosa', 'BaseHead'].desc }
+  .desc = { ent-PartElzuosa.desc }
 ent-LeftArmElzuosa = left elzuosa arm
-
-  .desc = { ent-['PartElzuosa', 'BaseLeftArm'].desc }
+  .desc = { ent-PartElzuosa.desc }
 ent-RightArmElzuosa = right elzuosa arm
-
-  .desc = { ent-['PartElzuosa', 'BaseRightArm'].desc }
+  .desc = { ent-PartElzuosa.desc }
 ent-LeftHandElzuosa = left elzuosa hand
-
-  .desc = { ent-['PartElzuosa', 'BaseLeftHand'].desc }
+  .desc = { ent-PartElzuosa.desc }
 ent-RightHandElzuosa = right elzuosa hand
-
-  .desc = { ent-['PartElzuosa', 'BaseRightHand'].desc }
+  .desc = { ent-PartElzuosa.desc }
 ent-LeftLegElzuosa = left elzuosa leg
-
-  .desc = { ent-['PartElzuosa', 'BaseLeftLeg'].desc }
+  .desc = { ent-PartElzuosa.desc }
 ent-RightLegElzuosa = right elzuosa leg
-
-  .desc = { ent-['PartElzuosa', 'BaseRightLeg'].desc }
+  .desc = { ent-PartElzuosa.desc }

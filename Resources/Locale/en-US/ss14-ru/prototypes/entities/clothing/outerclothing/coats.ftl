@@ -21,43 +21,35 @@ ent-ClothingOuterCoatTrench = trench coat
 ent-ClothingOuterCoatLab = lab coat
     .desc = A suit that protects against minor chemical spills.
 ent-ClothingOuterCoatLabOpened = lab coat
-
-  .desc = { ent-['ClothingOuterStorageFoldableBaseOpened', 'ClothingOuterCoatLab'].desc }
+  .desc = { ent-ClothingOuterCoatLab.desc }
 ent-ClothingOuterCoatLabChem = chemist lab coat
     .desc = A suit that protects against minor chemical spills. Has an orange stripe on the shoulder.
 ent-ClothingOuterCoatLabChemOpened = chemist lab coat
-
-  .desc = { ent-['ClothingOuterStorageFoldableBaseOpened', 'ClothingOuterCoatLabChem'].desc }
+  .desc = { ent-ClothingOuterCoatLab.desc }
 ent-ClothingOuterCoatLabViro = virologist lab coat
     .desc = A suit that protects against bacteria and viruses. Has an green stripe on the shoulder.
 ent-ClothingOuterCoatLabViroOpened = virologist lab coat
-
-  .desc = { ent-['ClothingOuterStorageFoldableBaseOpened', 'ClothingOuterCoatLabViro'].desc }
+  .desc = { ent-ClothingOuterCoatLabViro.desc }
 ent-ClothingOuterCoatLabGene = geneticist lab coat
     .desc = A suit that protects against minor chemical spills. Has an blue stripe on the shoulder.
 ent-ClothingOuterCoatLabGeneOpened = geneticist lab coat
-
-  .desc = { ent-['ClothingOuterStorageFoldableBaseOpened', 'ClothingOuterCoatLabGene'].desc }
+  .desc = { ent-ClothingOuterCoatLabGene.desc }
 ent-ClothingOuterCoatLabCmo = chief medical officer's lab coat
     .desc = Custom made blue lab coat for the Chief Medical Officer, offers improved protection against chemical spills and minor cuts
 ent-ClothingOuterCoatLabCmoOpened = chief medical officer's lab coat
-
-  .desc = { ent-['ClothingOuterStorageFoldableBaseOpened', 'ClothingOuterCoatLabCmo'].desc }
+  .desc = { ent-ClothingOuterCoatLabCmo.desc }
 ent-ClothingOuterCoatRnd = scientist lab coat
     .desc = A suit that protects against minor chemical spills. Has a purple stripe on the shoulder.
 ent-ClothingOuterCoatRndOpened = scientist lab coat
-
-  .desc = { ent-['ClothingOuterStorageFoldableBaseOpened', 'ClothingOuterCoatRnd'].desc }
+  .desc = { ent-ClothingOuterCoatRnd.desc }
 ent-ClothingOuterCoatRobo = roboticist lab coat
     .desc = More like an eccentric coat than a labcoat. Helps pass off bloodstains as part of the aesthetic. Comes with red shoulder pads.
 ent-ClothingOuterCoatRoboOpened = roboticist lab coat
-
-  .desc = { ent-['ClothingOuterStorageFoldableBaseOpened', 'ClothingOuterCoatRobo'].desc }
+  .desc = { ent-ClothingOuterCoatRobo.desc }
 ent-ClothingOuterCoatRD = research director lab coat
     .desc = Woven with top of the line technology, this labcoat helps protect against radiation in similar way to the experimental hardsuit.
 ent-ClothingOuterCoatRDOpened = research director lab coat
-
-  .desc = { ent-['ClothingOuterStorageFoldableBaseOpened', 'ClothingOuterCoatRD'].desc }
+  .desc = { ent-ClothingOuterCoatRD.desc }
 ent-ClothingOuterCoatPirate = pirate garb
     .desc = Yarr.
 ent-ClothingOuterCoatWarden = warden's armored jacket

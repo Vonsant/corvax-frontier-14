@@ -1,7 +1,7 @@
 ent-MobElementalBaseSalvage = { "" }
     .desc = { "" }
 ent-MobOreElementalSalvage = рудокраб
-  .desc = { ent-['MobElementalBaseSalvage', 'MobCombat'].desc }
+  .desc = { ent-MobElementalBaseSalvage.desc }
 ent-MobBananiumCrabSalvage = { ent-MobOreElementalSalvage }
     .desc = Рудный краб, состоящий из Бананиума.
 ent-MobCoalCrabSalvage = { ent-MobOreElementalSalvage }

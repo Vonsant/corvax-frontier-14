@@ -1,20 +1,14 @@
-ent-ClothingShoesBootsMagCombatFilled = { ent-['ClothingShoesBootsMagCombat', 'ClothingShoesBootsCombatFilled'] }
-
-  .desc = { ent-['ClothingShoesBootsMagCombat', 'ClothingShoesBootsCombatFilled'].desc }
-ent-ClothingShoesBootsMagNfsdFilled = { ent-['ClothingShoesBootsMagNfsd', 'ClothingShoesBootsCombatFilled'] }
-
-  .desc = { ent-['ClothingShoesBootsMagNfsd', 'ClothingShoesBootsCombatFilled'].desc }
-ent-ClothingShoesBootsMagPirateFilled = { ent-['ClothingShoesBootsMagPirate', 'ClothingShoesBootsCombatFilled'] }
-
-  .desc = { ent-['ClothingShoesBootsMagPirate', 'ClothingShoesBootsCombatFilled'].desc }
-ent-ClothingShoesBootsMagMercenaryFilled = { ent-['ClothingShoesBootsMagMercenary', 'ClothingShoesBootsMercenaryFilled'] }
-
-  .desc = { ent-['ClothingShoesBootsMagMercenary', 'ClothingShoesBootsMercenaryFilled'].desc }
-ent-ClothingShoesBootsNfsdBrownFilled = { ent-['ClothingShoesBootsNfsdBrown', 'ClothingShoesBootsCombatFilled'] }
-
-  .desc = { ent-['ClothingShoesBootsNfsdBrown', 'ClothingShoesBootsCombatFilled'].desc }
-ent-ClothingShoesBootsNfsdCreamFilled = { ent-['ClothingShoesBootsNfsdCream', 'ClothingShoesBootsCombatFilled'] }
-
-  .desc = { ent-['ClothingShoesBootsNfsdCream', 'ClothingShoesBootsCombatFilled'].desc }
+ent-ClothingShoesBootsMagCombatFilled = { ent-ClothingShoesBootsMagCombat }
+  .desc = { ent-ClothingShoesBootsMagCombat.desc }
+ent-ClothingShoesBootsMagNfsdFilled = { ent-ClothingShoesBootsMagNfsd }
+  .desc = { ent-ClothingShoesBootsMagNfsd.desc }
+ent-ClothingShoesBootsMagPirateFilled = { ent-ClothingShoesBootsMagPirate }
+  .desc = { ent-ClothingShoesBootsMagPirate.desc }
+ent-ClothingShoesBootsMagMercenaryFilled = { ent-ClothingShoesBootsMagMercenary }
+  .desc = { ent-ClothingShoesBootsMagMercenary.desc }
+ent-ClothingShoesBootsNfsdBrownFilled = { ent-ClothingShoesBootsNfsdBrown }
+  .desc = { ent-ClothingShoesBootsNfsdBrown.desc }
+ent-ClothingShoesBootsNfsdCreamFilled = { ent-ClothingShoesBootsNfsdCream }
+  .desc = { ent-ClothingShoesBootsNfsdCream.desc }
 ent-ChaplainHolywaterBottleFilled = holy water bottle
     .desc = Blessed be this holy water by the deity of your choosing.

@@ -26,10 +26,9 @@ ent-ClothingEyesHudSyndicate = syndicate visor
     .desc = The syndicate's professional head-up display, designed for better detection of humanoids and their subsequent elimination.
 ent-ClothingEyesHudSyndicateAgent = syndicate agent visor
     .desc = The Syndicate Agent's professional heads-up display, designed for quick diagnosis of their team's status.
-ent-ClothingEyesGlassesHiddenSecurity = { ent-['ClothingEyesGlassesSunglasses', 'ShowSecurityIcons'] }
-
+ent-ClothingEyesGlassesHiddenSecurity = { ent-ClothingEyesGlassesSunglasses }
   .suffix = Syndicate
-  .desc = { ent-['ClothingEyesGlassesSunglasses', 'ShowSecurityIcons'].desc }
+  .desc = { ent-ClothingEyesGlassesSunglasses.desc }
 ent-ClothingEyesEyepatchHudMedical = medical hud eyepatch
     .desc = A heads-up display that scans the humanoids in view and provides accurate data about their health status. For true patriots.
 ent-ClothingEyesEyepatchHudSecurity = security hud eyepatch

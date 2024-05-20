@@ -3,9 +3,7 @@ ent-CrateNPCEmotionalSupport = emotional support pet crate
 ent-FillNPCEmotionalSupportSafe = { "" }
     .suffix = Safe
     .desc = { "" }
-ent-CrateNPCEmotionalSupportSafe = { ent-['FillNPCEmotionalSupportSafe', 'CrateNPCEmotionalSupport'] }
-
-  .desc = { ent-['FillNPCEmotionalSupportSafe', 'CrateNPCEmotionalSupport'].desc }
+ent-CrateNPCEmotionalSupportSafe = { ent-CrateNPCEmotionalSupport }
+  .desc = { ent-CrateNPCEmotionalSupport.desc }
 ent-PetCarrierNPCEmotionalSupportSafe = emotional support pet in a pet carrier
-
-  .desc = { ent-['FillNPCEmotionalSupportSafe', 'PetCarrier'].desc }
+  .desc = { ent-PetCarrier.desc }

@@ -15,11 +15,9 @@ ent-MobBloodCultistCaster = Blood Cult Zealot
 ent-MobBloodCultistAscended = Ascended Cultist
     .desc = { ent-MobNonHumanHostileBase.desc }
 ent-MobBloodCultLeech = Blood Leech
-
-  .desc = { ent-['MobNonHumanHostileBase', 'MobPassiveRegen'].desc }
+  .desc = { ent-MobNonHumanHostileBase.desc }
 ent-MobBloodCultDrainedOne = Drained One
-
-  .desc = { ent-['MobNonHumanHostileBase', 'FlyingMobBase'].desc }
+  .desc = { ent-MobNonHumanHostileBase.desc }
 ent-MobBloodCultDrainedOneNanoTrasen = Drained One
     .desc = { ent-MobBloodCultDrainedOne.desc }
 ent-BloodCultTurret = blood pylon
