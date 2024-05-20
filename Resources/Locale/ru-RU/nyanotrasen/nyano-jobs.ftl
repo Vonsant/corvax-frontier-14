@@ -1,8 +1,8 @@
-job-name-mail-carrier = Mail Carrier
-job-name-prisoner = Prisoner
-job-name-valet = Valet
-job-name-guard = Prison Guard
-job-description-mail-carrier = Deliver mail. Avoid dogs.
-job-description-prisoner = Sit in prison. Gamble with your cellmates. Talk to the bailiff. Write your memoirs.
-job-description-valet = Take care of the station and its many guests.
-job-description-guard = Keep track of prisoners and make sure they have their basic needs.
+job-name-mail-carrier = почтальон
+job-name-prisoner = заключённый
+job-name-valet = камердинер
+job-name-guard = тюремный охранник
+job-description-mail-carrier = Доставляйте почту. Оберегайтесь собак.
+job-description-prisoner = Сидите в тюрьме. Не роняйте мыло. Пытайтесь сбежать.
+job-description-valet = Заботьтесь об аванпосте и его гостях.
+job-description-guard = Следите за заключенными и удовлетворяйте их базовые потребности.
