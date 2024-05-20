@@ -1,2 +1,2 @@
-ent-ShipyardPioneerInfo = pioneer user manual
-    .desc = preflight checklist
+ent-ShipyardPioneerInfo = Инструкция по использованию Пионера
+    .desc = чеклист предполётной подготовки

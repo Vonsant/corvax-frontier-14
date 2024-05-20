@@ -1,12 +1,13 @@
-reagent-name-atomicpunch = atomic punch
-reagent-desc-atomicpunch = Will NOT make you immune to bullets; Isotopes included!
-reagent-name-pinkdrink = pink drink
-reagent-desc-pinkdrink = Entire civilizations have crumbled trying to decide if this drink really tastes like pink...
-reagent-name-bubbletea = bubble tea
-reagent-desc-bubbletea = Big straw not included.
-reagent-name-the-martinez = The Martinez
-reagent-desc-the-martinez = The edgerunner legend.  Remembered by a drink, Forgotten by a drunk.
-reagent-name-holywater = holy water
-reagent-desc-holywater = Water blessed by some otherworldly powers.
-reagent-name-lean = lean
-reagent-desc-lean = A disgusting mixture of soda, booze, and cough syrup.
+reagent-name-atomicpunch = атомный удар
+reagent-desc-atomicpunch = НЕ сделает вас неуязвимым для пуль; изотопы включены!
+reagent-name-pinkdrink = розовый бархат
+reagent-desc-pinkdrink = Целые цивилизации разрушились, пытаясь решить, действительно ли этот напиток на вкус розовый...
+reagent-name-bubbletea = бабл-ти
+reagent-desc-bubbletea = Большая трубочка не прилагается.
+reagent-name-the-martinez = Мартинез
+reagent-desc-the-martinez = Легенда эджраннеров. Запомненный напитком, забытый пьяницей.
+reagent-name-holywater = святая вода
+reagent-desc-holywater = Вода, освященная какими-то потусторонними силами.
+reagent-name-lean = сироп
+reagent-desc-lean = Отвратительная смесь содовой, алкоголя и сиропа от кашля.
+

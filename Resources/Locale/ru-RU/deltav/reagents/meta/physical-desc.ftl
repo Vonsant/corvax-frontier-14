@@ -1,2 +1,2 @@
-reagent-physical-desc-ethereal = ethereal
-reagent-physical-desc-glittery = glittery
+reagent-physical-desc-ethereal = неземной
+reagent-physical-desc-glittery = блестящий

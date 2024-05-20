@@ -1,1 +1,1 @@
-humanoid-profile-editor-preference-messenger = Messenger
+humanoid-profile-editor-preference-messenger = Мессенджер

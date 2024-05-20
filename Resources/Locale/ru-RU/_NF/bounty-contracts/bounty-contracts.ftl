@@ -7,7 +7,7 @@ bounty-contracts-category-criminal = Разыскивается
 bounty-contracts-category-vacancy = Вакансия
 bounty-contracts-category-construction = Постройка
 bounty-contracts-category-service = Услуга
-bounty-contracts-category-other = Другие
+bounty-contracts-category-other = Другое
 # Cartridge
 bounty-contracts-program-name = Контракты
 
@@ -36,7 +36,7 @@ bounty-contracts-ui-create-name-placeholder = Название награды...
 bounty-contracts-ui-create-dna = ДНК:{ " " }
 bounty-contracts-ui-create-vessel = Шаттл:{ " " }
 bounty-contracts-ui-create-vessel-unknown = Неизвестно
-bounty-contracts-ui-create-vessel-placeholder = Название судна...
+bounty-contracts-ui-create-vessel-placeholder = Название шаттла...
 bounty-contracts-ui-create-reward = Награда:{ " " }
 bounty-contracts-ui-create-reward-currency = $
 bounty-contracts-ui-create-description = Описание:

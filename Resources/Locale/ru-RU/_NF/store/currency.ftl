@@ -1,1 +1,1 @@
-store-currency-display-security-telecrystal = FUC
+store-currency-display-security-telecrystal = ТК

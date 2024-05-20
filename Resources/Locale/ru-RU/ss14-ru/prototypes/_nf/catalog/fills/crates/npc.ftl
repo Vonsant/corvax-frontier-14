@@ -6,6 +6,5 @@ ent-FillNPCEmotionalSupportSafe = { "" }
 ent-CrateNPCEmotionalSupportSafe = ящик с ручными зверушками
     .suffix = Безопасный
     .desc = { ent-CrateLivestock.desc }
-ent-PetCarrierNPCEmotionalSupportSafe = emotional support pet in a pet carrier
-
-  .desc = { ent-['FillNPCEmotionalSupportSafe', 'PetCarrier'].desc }
+ent-PetCarrierNPCEmotionalSupportSafe = ручная зверушка с удобной переноской
+  .desc = { ent-[PetCarrier.desc }

@@ -1,2 +1,2 @@
-reagent-name-flavorol = flavorol
-reagent-desc-flavorol = All the vitamins, minerals, and carbohydrates the body needs in pure form.
+reagent-name-flavorol = витамикс
+reagent-desc-flavorol = Все необходимые витамины, минералы и углеводы в чистом виде.

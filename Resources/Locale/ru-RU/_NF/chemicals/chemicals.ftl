@@ -1,2 +1,2 @@
-reagent-name-rawartifexium = raw artifexium
-reagent-desc-rawartifexium = A raw mixture of microscopic artifact fragments and a strong acid. It has the ability to activate artifacts. It looks like it could be refined further to be more potent.
+reagent-name-rawartifexium = необработанный артифексиум
+reagent-desc-rawartifexium = Сырая смесь микроскопических фрагментов артефактов и сильной кислоты. Обладает способностью активировать артефакты. Похоже, что его можно было бы доработать, чтобы сделать более мощным.

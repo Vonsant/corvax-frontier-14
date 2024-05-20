@@ -1,3 +1,3 @@
-ent-FloorWaterDecorativeEntity = water
-    .desc = A real thirst quencher.
-    .suffix = Decorative
+ent-FloorWaterDecorativeEntity = вода
+    .desc = Настоящий утолитель жажды.
+    .suffix = Декоративная

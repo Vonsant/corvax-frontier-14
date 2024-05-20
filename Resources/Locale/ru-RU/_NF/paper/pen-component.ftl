@@ -1,13 +1,13 @@
 ## Modes
 
-pen-mode-write = Write
-pen-mode-sign = Sign
+pen-mode-write = Письмо
+pen-mode-sign = Подпись
 
 ## Popups
 
-pen-mode-state = The pen ready to { $mode }
+pen-mode-state = Ручка в режиме { $mode }
 
 ## Examine
 
-pen-examine-write = The pen ready to [color=darkgreen]write[/color].
-pen-examine-sign = The pen ready to [color=darkred]sign[/color].
+pen-examine-write = Ручка готова к [color=darkgreen]письму[/color].
+pen-examine-sign = Ручка готова к [color=darkred]подписи[/color].

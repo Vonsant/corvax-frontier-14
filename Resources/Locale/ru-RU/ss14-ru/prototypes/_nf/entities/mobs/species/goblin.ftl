@@ -1,4 +1,4 @@
-ent-MobGoblinBase = Urist McGoblin
+ent-MobGoblinBase = Урист МакГоблин
     .desc = { ent-BaseMobHuman.desc }
-ent-MobGoblinDummy = Urist McGoblin
-    .desc = A dummy goblin meant to be used in character setup.
+ent-MobGoblinDummy = Урист МакГоблин
+    .desc = Кукла для кастомизаций.

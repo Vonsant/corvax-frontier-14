@@ -1,1 +1,1 @@
-frontier-loadout-cost = Total Loadout Cost: ${ $cost }
+frontier-loadout-cost = Стоимость пресета: ${ $cost }

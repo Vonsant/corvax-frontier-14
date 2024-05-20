@@ -1,6 +1,6 @@
-ent-WeaponCaseLong = weapon case
-    .desc = A reinforced casing for storing long weapons and accessories.
-    .suffix = Long
-ent-WeaponCaseShort = weapon case
-    .desc = A reinforced casing for storing side arms and weapon accessories.
-    .suffix = Short
+ent-WeaponCaseLong = оружейный ящик
+    .desc = Ящик для хранения крупнокалиберного оружия и аксессуаров к нему.
+    .suffix = Длинный
+ent-WeaponCaseShort = оружейный ящик
+    .desc = Ящик для хранения малокалиберного оружия и аксессуаров к нему.
+    .suffix = Короткий

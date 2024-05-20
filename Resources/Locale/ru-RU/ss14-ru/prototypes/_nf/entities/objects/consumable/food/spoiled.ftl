@@ -1,34 +1,24 @@
-ent-FoodSpoiledMoldy = moldy food
-    .desc = It's probably still edible, just need to scrape this thing off. And this one too. And this one.
-ent-FoodSpoiledRotten = rotten food
-    .desc = It's probably still edible, just need to scrape this thing off. And this one too. And this one.
-ent-FoodBurgerBaconRotten = rotten burger
-
-  .desc = { ent-['FoodBurgerBase', 'FoodSpoiledRotten'].desc }
-ent-FoodBurgerBigBiteRotten = rotten burger
-
-  .desc = { ent-['FoodBurgerBase', 'FoodSpoiledRotten'].desc }
-ent-FoodBurgerCheeseRotten = rotten burger
-
-  .desc = { ent-['FoodBurgerBase', 'FoodSpoiledRotten'].desc }
-ent-FoodBurgerEmpoweredRotten = rotten burger
-
-  .desc = { ent-['FoodBurgerBase', 'FoodSpoiledRotten'].desc }
-ent-FoodBurgerPlainRotten = rotten burger
-
-  .desc = { ent-['FoodBurgerBase', 'FoodSpoiledRotten'].desc }
-ent-FoodRiceEggMoldy = moldy food
-
-  .desc = { ent-['FoodRiceEgg', 'FoodSpoiledMoldy'].desc }
-ent-FoodSoupMeatballMoldy = moldy food
-
-  .desc = { ent-['FoodSoupMeatball', 'FoodSpoiledMoldy'].desc }
-ent-FoodNoodlesMoldy = moldy food
-
-  .desc = { ent-['FoodNoodles', 'FoodSpoiledMoldy'].desc }
-ent-FoodNoodlesMeatballMoldy = moldy food
-
-  .desc = { ent-['FoodNoodlesMeatball', 'FoodSpoiledMoldy'].desc }
-ent-FoodSaladCaesarMoldy = moldy food
-
-  .desc = { ent-['FoodSaladCaesar', 'FoodSpoiledMoldy'].desc }
+ent-FoodSpoiledMoldy = заплесневелая еда
+    .desc = Это, наверное, все еще съедобно, нужно просто соскоблить эту штуку. И эту тоже. И эту.
+ent-FoodSpoiledRotten = гнилая еда
+    .desc = Это, наверное, все еще съедобно, нужно просто соскоблить эту штуку. И эту тоже. И эту.
+ent-FoodBurgerBaconRotten = заплесневелый бургер
+  .desc = { ent-FoodSpoiledRotten.desc }
+ent-FoodBurgerBigBiteRotten = заплесневелый бургер
+  .desc = { ent-FoodSpoiledRotten.desc }
+ent-FoodBurgerCheeseRotten = заплесневелый бургер
+  .desc = { ent-FoodSpoiledRotten.desc }
+ent-FoodBurgerEmpoweredRotten = заплесневелый бургер
+  .desc = { ent-FoodSpoiledRotten.desc }
+ent-FoodBurgerPlainRotten = заплесневелый бургер
+  .desc = { ent-FoodSpoiledRotten.desc }
+ent-FoodRiceEggMoldy = гнилая еда
+  .desc = { ent-FoodSpoiledMoldy.desc }
+ent-FoodSoupMeatballMoldy = гнилая еда
+  .desc = { ent-FoodSpoiledMoldy.desc }
+ent-FoodNoodlesMoldy = гнилая еда
+  .desc = { ent-FoodSpoiledMoldy.desc }
+ent-FoodNoodlesMeatballMoldy = гнилая еда
+  .desc = { ent-FoodSpoiledMoldy.desc }
+ent-FoodSaladCaesarMoldy = гнилая еда
+  .desc = { ent-FoodSpoiledMoldy.desc }

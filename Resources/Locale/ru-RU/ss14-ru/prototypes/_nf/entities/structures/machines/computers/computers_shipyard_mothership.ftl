@@ -1,16 +1,15 @@
-ent-BaseMothershipComputer = { ent-['BaseStructureDisableToolUse', 'BaseStructureIndestructible', 'ComputerShipyard'] }
-
-  .desc = Used on motherships to purchase and sell ships without returning to a station.
-  .suffix = Mothership
-ent-EmpressMothershipComputer = empress shipyard console
+ent-BaseMothershipComputer = { ent-ComputerShipyard }
+  .desc = Используется на авианосцах для покупки малых шаттлов.
+  .suffix = Авианосец
+ent-EmpressMothershipComputer = консоль верфи императрицы
     .desc = { ent-BaseMothershipComputer.desc }
-ent-McCargoMothershipComputer = mccargo shipyard console
+ent-McCargoMothershipComputer = консоль верфи каргонии
     .desc = { ent-BaseMothershipComputer.desc }
-ent-CaduceusMothershipComputer = caduceus shipyard console
+ent-CaduceusMothershipComputer = консоль верфи кадуцея
     .desc = { ent-BaseMothershipComputer.desc }
-ent-GasbenderMothershipComputer = gasbender shipyard console
+ent-GasbenderMothershipComputer = консоль верфи газового гиганта
     .desc = { ent-BaseMothershipComputer.desc }
-ent-CrescentMothershipComputer = crescent shipyard console
+ent-CrescentMothershipComputer = консоль верфи полумесяца
     .desc = { ent-BaseMothershipComputer.desc }
-ent-MailCarrierMothershipComputer = mail carrier shipyard console
+ent-MailCarrierMothershipComputer = консоль почтовой верфи
     .desc = { ent-BaseMothershipComputer.desc }

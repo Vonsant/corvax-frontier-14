@@ -74,10 +74,10 @@ ent-ComputerTabletopShipyardBlackMarket = { ent-ComputerShipyardBlackMarket }
     .desc = { ent-ComputerShipyardBlackMarket.desc }
 ent-ComputerTabletopShipyardExpedition = { ent-ComputerShipyardExpedition }
     .desc = { ent-ComputerShipyardExpedition.desc }
-ent-ComputerTabletopComputerIFFPOI = { ent-['BaseStructureIndestructible', 'BaseStructureComputerTabletop', 'ComputerIFFPOI'] }
-
-  .suffix = POI, Tabletop
-  .desc = { ent-['BaseStructureIndestructible', 'BaseStructureComputerTabletop', 'ComputerIFFPOI'].desc }ent-ComputerTabletopShipyardScrap = { ent-ComputerShipyardScrap }
+ent-ComputerTabletopComputerIFFPOI = { ent-ComputerIFFPOI }
+  .suffix = POI, Настольный
+  .desc = { ent-ComputerIFFPOI.desc }
+ent-ComputerTabletopShipyardScrap = { ent-ComputerShipyardScrap }
     .desc = { ent-ComputerShipyardScrap.desc }
 ent-ComputerTabletopPalletConsoleNFHighMarket = { ent-ComputerPalletConsoleNFHighMarket }
     .suffix = Высокий налог, Настольный

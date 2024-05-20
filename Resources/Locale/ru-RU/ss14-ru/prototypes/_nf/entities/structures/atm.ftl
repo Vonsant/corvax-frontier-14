@@ -1,30 +1,24 @@
 ent-ComputerBankATMBase = { "" }
     .desc = { "" }
-ent-ComputerBankATMDeposit = bank atm
-    .desc = Used to deposit and withdraw funds from a personal bank account.
-ent-ComputerBankATMWithdraw = bank atm withdraw-only
-    .desc = Used to withdraw funds from a personal bank account, unable to deposit.
-ent-ComputerBankATM = { ent-['ComputerBankATMBase', 'ComputerBankATMDeposit', 'BaseStructureDisableToolUse', 'BaseStructureIndestructible', 'BaseStructureComputer'] }
-
-  .desc = { ent-['ComputerBankATMBase', 'ComputerBankATMDeposit', 'BaseStructureDisableToolUse', 'BaseStructureIndestructible', 'BaseStructureComputer'].desc }
-ent-ComputerWithdrawBankATM = { ent-['ComputerBankATMBase', 'ComputerBankATMWithdraw', 'BaseStructureDisableToolUse', 'BaseStructureIndestructible', 'BaseStructureComputer'] }
-
-  .desc = { ent-['ComputerBankATMBase', 'ComputerBankATMWithdraw', 'BaseStructureDisableToolUse', 'BaseStructureIndestructible', 'BaseStructureComputer'].desc }
-ent-ComputerWallmountBankATM = { ent-['ComputerBankATMBase', 'ComputerBankATMDeposit', 'BaseStructureDisableToolUse', 'BaseStructureIndestructible', 'BaseStructureWallmount', 'BaseStructureComputer'] }
-
-  .suffix = Wallmount
-  .desc = { ent-['ComputerBankATMBase', 'ComputerBankATMDeposit', 'BaseStructureDisableToolUse', 'BaseStructureIndestructible', 'BaseStructureWallmount', 'BaseStructureComputer'].desc }
-ent-ComputerWallmountWithdrawBankATM = { ent-['ComputerBankATMBase', 'ComputerBankATMWithdraw', 'BaseStructureDisableToolUse', 'BaseStructureIndestructible', 'BaseStructureWallmount', 'BaseStructureComputer'] }
-
-  .suffix = Wallmount
-  .desc = { ent-['ComputerBankATMBase', 'ComputerBankATMWithdraw', 'BaseStructureDisableToolUse', 'BaseStructureIndestructible', 'BaseStructureWallmount', 'BaseStructureComputer'].desc }
-ent-ComputerBlackMarketBankATM = { ent-['ComputerBankATMBase', 'ComputerBankATMDeposit', 'BaseStructureDisableToolUse', 'BaseStructureDestructible', 'BaseStructureComputer'] }
-
-  .desc = Has some sketchy looking modifications and a sticker that says DEPOSIT FEE 30%
-  .suffix = BlackMarket
-ent-ComputerWallmountBlackMarketBankATM = { ent-['ComputerBankATMBase', 'ComputerBankATMDeposit', 'BaseStructureDisableToolUse', 'BaseStructureDestructible', 'BaseStructureWallmount', 'BaseStructureComputer'] }
-
-  .desc = Has some sketchy looking modifications and a sticker that says DEPOSIT FEE 30%
-  .suffix = Wallmount, BlackMarket
-ent-StationAdminBankATM = station administration console
-    .desc = Used to pay out from the station's bank account
+ent-ComputerBankATMDeposit = банкомат
+    .desc = Используется для снятия и занесения наличных средств на свой банковский счёт.
+ent-ComputerBankATMWithdraw = банкомат для снятия
+    .desc = Используется для снятия наличных средств с банковского счёта.
+ent-ComputerBankATM = { ent-ComputerBankATMDeposit }
+  .desc = { ent-ComputerBankATMDeposit.desc }
+ent-ComputerWithdrawBankATM = { ent-ComputerBankATMWithdraw }
+  .desc = { ent-ComputerBankATMWithdraw.desc }
+ent-ComputerWallmountBankATM = { ent-ComputerBankATMDeposit }
+  .suffix = Настенный
+  .desc = { ent-ComputerBankATMDeposit.desc }
+ent-ComputerWallmountWithdrawBankATM = { ent-ComputerBankATMBase }
+  .suffix = Настенный
+  .desc = { ent-ComputerBankATMWithdraw.desc }
+ent-ComputerBlackMarketBankATM = { ent-ComputerBankATMDeposit }
+  .desc = Явно модифицированный банкомат, на котором краской криво написано "НАЛОГ С ПРОДАЖ 30%"
+  .suffix = Чёрный рынок
+ent-ComputerWallmountBlackMarketBankATM = { ent-ComputerBankATMDeposit }
+  .desc = Явно модифицированный банкомат, на котором краской криво написано "НАЛОГ С ПРОДАЖ 30%"
+  .suffix = Настенный, Чёрный рынок
+ent-StationAdminBankATM = консоль станционного администрирования
+    .desc = Используется для снятия средств со счетов станции.
