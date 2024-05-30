@@ -195,9 +195,9 @@ public sealed class WieldableSystem : EntitySystem
             {
                 foreach (var hand in hands.Hands)
                 {
-                    if (!_handsSystem.TryDrop(user, hand, checkActionBlocker: false))
+                    if (hand.HeldEntity != null && !_handsSystem.TryDrop(user, hand.HeldEntity.Value, checkActionBlocker: false))
                     {
-                        _popupSystem.PopupClient(Loc.GetString("wieldable-component-failed-drop", ("item", hand.HeldEntity)), user, user);
+                        _popupSystem.PopupClient(Loc.GetString("wieldable-component-failed-drop", ("item", hand.HeldEntity.Value)), user, user);
                     }
                 }
             }
