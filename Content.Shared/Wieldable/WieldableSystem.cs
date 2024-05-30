@@ -193,7 +193,7 @@ public sealed class WieldableSystem : EntitySystem
         {
             if (EntityManager.TryGetComponent<HandsComponent>(user, out var hands))
             {
-                foreach (var hand in hands.Hands)
+                foreach (var hand in hands.Hands.Values)
                 {
                     if (hand.HeldEntity != null && !_handsSystem.TryDrop(user, hand.HeldEntity.Value, checkActionBlocker: false))
                     {
