@@ -2,13 +2,13 @@
   name: Tricolor Dango
   parent: FoodBakedBase
   id: hanamidango
-  description: Rice sweetness that beckons
+  description: Манящая рисовая сладость.
   components:
   - type: Item
     storedRotation: -90
   - type: Food
   - type: Sprite
-    sprite: Corvax/Objects/Consumable/Food/japanfood.rsi
+    sprite: Corvax/Objects/Consumable/Food/hanamidango.rsi
     state: hanamidango
   - type: SolutionContainerManager
     solutions:

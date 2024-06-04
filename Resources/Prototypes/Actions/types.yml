@@ -37,7 +37,6 @@
   id: ActionToggleLight
   name: Toggle Light
   description: Turn the light on and off.
-  noSpawn: true
   components:
   - type: InstantAction
     icon: { sprite: Objects/Tools/flashlight.rsi, state: flashlight }
