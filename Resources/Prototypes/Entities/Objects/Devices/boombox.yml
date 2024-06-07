@@ -357,6 +357,43 @@
     - type: BoomBoxTape
       soundPath: /Audio/BoomBox/HydrogenHotlineMiami.ogg
 
+- type: entity
+  parent: BaseBoomBoxTape
+  id: BaseBoomBoxTapeNarventPartiality
+  name: Narvent - Partiality
+  description: Музыка
+  components:
+    - type: BoomBoxTape
+      soundPath: /Audio/BoomBox/NarventOBLXKQPartiality.ogg
+
+- type: entity
+  parent: BaseBoomBoxTape
+  id: BaseBoomBoxTapeNarventSadness
+  name: Narvent - Sadness
+  description: Музыка
+  components:
+    - type: BoomBoxTape
+      soundPath: /Audio/BoomBox/NarventVintageSadness.ogg
+
+- type: entity
+  parent: BaseBoomBoxTape
+  id: BaseBoomBoxTapeSTRXYLacrima
+  name: STRXY - Lacrima
+  description: Музыка
+  components:
+    - type: BoomBoxTape
+      soundPath: /Audio/BoomBox/STRXYLacrima.ogg
+
+- type: entity
+  parent: BaseBoomBoxTape
+  id: BaseBoomBoxTapeXalvOblivion
+  name: Xalv - Oblivion
+  description: Музыка
+  components:
+    - type: BoomBoxTape
+      soundPath: /Audio/BoomBox/XalvOblivion.ogg
+
+
 # - type: entity
   # parent: BaseBoomBoxTape
   # id: BaseBoomBoxTapeSyndTest

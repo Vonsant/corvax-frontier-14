@@ -54,6 +54,7 @@
     MailBoomboxPack6: 0.5
     MailBoomboxPack7: 0.5
     MailBoomboxPack8: 0.5
+    MailBoomboxPack9: 0.5
 
   # Department and job-specific mail can have slightly higher weights,
   # since they'll be merged with the everyone pool.

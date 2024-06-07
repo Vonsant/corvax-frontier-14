@@ -316,3 +316,18 @@
       - id: BaseBoomBoxTapeHIFIRekka
       - id: BaseBoomBoxTapeHotLineCrystals
       - id: BaseBoomBoxTapeHotLineHydrogen
+
+- type: entity
+  noSpawn: true
+  parent: BaseMail
+  id: MailBoomboxPack9
+  suffix: Boombox
+  components:
+  - type: Mail
+    isFragile: true
+    contents:
+      - id: BaseBoomBoxTapeNarventPartiality
+      - id: BaseBoomBoxTapeNarventSadness
+      - id: BaseBoomBoxTapeSTRXYLacrima
+      - id: BaseBoomBoxTapeXalvOblivion
+
