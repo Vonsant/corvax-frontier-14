@@ -14,7 +14,7 @@ namespace Content.Server.Shuttles.Components
         /// <summary>
         /// Thrust gets multiplied by this value if it's for braking.
         /// </summary>
-        public const float BrakeCoefficient = 1.5f;
+        public const float BrakeCoefficient = 0.5f;
 
         /// <summary>
         /// Maximum velocity assuming unupgraded, tier 1 thrusters
@@ -66,9 +66,9 @@ namespace Content.Server.Shuttles.Components
         /// Damping applied to the shuttle's physics component when not in FTL.
         /// </summary>
         [DataField("linearDamping"), ViewVariables(VVAccess.ReadWrite)]
-        public float LinearDamping = 0.05f;
+        public float LinearDamping = 0.005f;
 
         [DataField("angularDamping"), ViewVariables(VVAccess.ReadWrite)]
-        public float AngularDamping = 0.05f;
+        public float AngularDamping = 0.005f;
     }
 }
