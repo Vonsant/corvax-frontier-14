@@ -39,20 +39,18 @@ public sealed class SetAllBalanceCommand : IConsoleCommand
 }
 
 [AdminCommand(AdminFlags.Host)]
-public sealed class SetBalanceCommand : IConsoleCommand
+public sealed class SetZeroBalanceCommand : IConsoleCommand
 {
     [Dependency] private readonly IServerDbManager _dbManager = default!;
 
-    public string Command => "setbalance";
+    public string Command => "setzerobalance";
     public string Description => Loc.GetString("set-balance-command-description");
     public string Help => Loc.GetString("set-balance-command-help-text", ("command", Command));
 
     public async void Execute(IConsoleShell shell, string argStr, string[] args)
     {
         var loc = IoCManager.Resolve<ILocalizationManager>();
-        var set_balance = 0;
-        int.TryParse(args[1], out set_balance);
-        if (args.Length == 1 || args.Length == 2)
+        if (args.Length == 1)
         {
             var _userId = await _dbManager.GetPlayerRecordByUserName(args[0], new CancellationToken());
             if (_userId is not null) {
@@ -70,7 +68,7 @@ public sealed class SetBalanceCommand : IConsoleCommand
                                     profile.Age,
                                     profile.Sex,
                                     profile.Gender,
-                                    set_balance,
+                                    0,
                                     profile.Appearance,
                                     profile.SpawnPriority,
                                     profile.JobPriorities,
@@ -82,12 +80,15 @@ public sealed class SetBalanceCommand : IConsoleCommand
                         }
                     }
                 }
+                return;
+            } else {
+                shell.WriteLine(Loc.GetString("shell-target-player-does-not-exist "));
+                return;
             }
-            return;
         }
         else
         {
-            shell.WriteLine(Loc.GetString("shell-need-between-arguments", ("lower", "1"), ("upper", "2")));
+            shell.WriteLine(Loc.GetString("shell-need-exactly-one-argument"));
             return;
         }
     }
