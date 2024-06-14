@@ -5,9 +5,11 @@ using Content.Server.Doors.Systems;
 using Content.Shared.Atmos;
 using Content.Shared.Atmos.Components;
 using Content.Shared.Database;
+using Content.Shared.Maps;
 using Robust.Shared.Map;
 using Robust.Shared.Map.Components;
 using Robust.Shared.Physics.Components;
+using Robust.Shared.Prototypes;
 using Robust.Shared.Random;
 using Robust.Shared.Utility;
 
@@ -551,7 +553,8 @@ namespace Content.Server.Atmos.EntitySystems
                 }
 
                 InvalidateVisuals(ent, otherTile);
-                HandleDecompressionFloorRip(mapGrid, otherTile, otherTile.MonstermosInfo.CurrentTransferAmount);
+                if (MonstermosRipTiles && otherTile.PressureDifference > MonstermosRipTilesMinimumPressure)
+                    HandleDecompressionFloorRip(mapGrid, otherTile, otherTile.PressureDifference);
             }
 
             if (GridImpulse && tileCount > 0)
@@ -693,7 +696,6 @@ namespace Content.Server.Atmos.EntitySystems
             if (!tileDef.Reinforced && tileDef.TileRipResistance < delta * MonstermosRipTilesPressureOffset)
             {
                 PryTile(mapGrid, tile.GridIndices);
-            }
         }
 
         private sealed class TileAtmosphereComparer : IComparer<TileAtmosphere?>
