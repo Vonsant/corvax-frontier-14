@@ -100,7 +100,7 @@ namespace Content.Shared.Movement.Components
         /// The negative velocity applied for friction.
         /// </summary>
         [AutoNetworkedField, ViewVariables(VVAccess.ReadWrite), DataField]
-         public float? FrictionNoInput = DefaultFrictionNoInput; # Frontier
+        public float? FrictionNoInput = DefaultFrictionNoInput; # Frontier
 
         [ViewVariables(VVAccess.ReadWrite), DataField, AutoNetworkedField]
         public float BaseWalkSpeed { get; set; } = DefaultBaseWalkSpeed;
