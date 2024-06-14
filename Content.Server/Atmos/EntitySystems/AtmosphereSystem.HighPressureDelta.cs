@@ -214,7 +214,6 @@ namespace Content.Server.Atmos.EntitySystems
             int cycle,
             float pressureDifference,
             AtmosDirection direction,
-            float pressureResistanceProbDelta,
             EntityCoordinates throwTarget,
             Angle gridWorldRotation,
             TransformComponent? xform = null,
