@@ -695,6 +695,7 @@ namespace Content.Server.Atmos.EntitySystems
             if (!tileDef.Reinforced && tileDef.TileRipResistance < delta * MonstermosRipTilesPressureOffset)
             {
                 PryTile(mapGrid, tile.GridIndices);
+            }
         }
 
         private sealed class TileAtmosphereComparer : IComparer<TileAtmosphere?>
