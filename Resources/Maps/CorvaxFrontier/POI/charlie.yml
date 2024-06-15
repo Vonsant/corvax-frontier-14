@@ -17,7 +17,7 @@ entities:
   entities:
   - uid: 2
     components:
-    - type: ProtectedGrid
+    - type: VoidContainer
     - type: MetaData
       name: grid
     - type: Transform
