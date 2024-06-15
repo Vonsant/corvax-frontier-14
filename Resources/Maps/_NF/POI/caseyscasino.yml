@@ -19,6 +19,7 @@ entities:
   - uid: 2
     components:
     - type: VoidContainer
+    - type: ProtectedGrid
     - type: MetaData
     - type: Transform
       pos: -0.5187805,-0.50625
