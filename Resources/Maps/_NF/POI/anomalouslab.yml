@@ -16,6 +16,7 @@ entities:
   entities:
   - uid: 1
     components:
+    - type: VoidContainer
     - type: MetaData
       name: Anomalous Laboratory
     - type: Transform

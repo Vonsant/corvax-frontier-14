@@ -1,3 +1,4 @@
+using Content.Shared.Corvax.VoidContainerComponent;
 using Content.Shared.EntityList;
 using Content.Shared.Tiles;
 using Robust.Shared.Physics;
@@ -21,7 +22,8 @@ public sealed class FrictionRemoverSystem : EntitySystem
 
     private void RemoveDampening(EntityUid uid, PhysicsComponent component, PhysicsSleepEvent args)
     {
-        if (EntityManager.TryGetComponent(uid, out ProtectedGridComponent? protectedGridComp))
+        if (EntityManager.TryGetComponent(uid, out VoidContainerComponent? voidContainerComp)||
+            EntityManager.TryGetComponent(uid, out ProtectedGridComponent? protectedGridComp))
             return;
 
         _physics.SetAngularDamping(component, 0, false);
