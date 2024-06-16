@@ -1,20 +1,17 @@
 using System.Diagnostics.CodeAnalysis;
 using System.Numerics;
 using Content.Shared.Administration.Logs;
-using Content.Shared.Alert;
 using Content.Shared.Audio;
-using Content.Shared.Damage.Components;
 using Content.Shared.Database;
-using Content.Shared.Gravity;
 using Content.Shared.Hands;
 using Content.Shared.Inventory;
 using Content.Shared.Inventory.Events;
 using Content.Shared.Item.ItemToggle.Components;
 using Content.Shared.Popups;
 using Content.Shared.Projectiles;
-using Content.Shared.Standing;
 using Content.Shared.Weapons.Ranged.Components;
 using Content.Shared.Weapons.Ranged.Events;
+using Robust.Shared.Audio;
 using Robust.Shared.Audio.Systems;
 using Robust.Shared.Network;
 using Robust.Shared.Physics.Components;
@@ -38,12 +35,6 @@ public sealed class ReflectSystem : EntitySystem
     [Dependency] private readonly SharedAudioSystem _audio = default!;
     [Dependency] private readonly SharedTransformSystem _transform = default!;
     [Dependency] private readonly InventorySystem _inventorySystem = default!;
-    [Dependency] private readonly SharedGravitySystem _gravity = default!;
-    [Dependency] private readonly StandingStateSystem _standing = default!;
-    [Dependency] private readonly AlertsSystem _alerts = default!;
-
-    [ValidatePrototypeId<AlertPrototype>]
-    private const string DeflectingAlert = "Deflecting";
 
     public override void Initialize()
     {
@@ -145,7 +136,6 @@ public sealed class ReflectSystem : EntitySystem
 
     private bool TryReflectProjectile(EntityUid user, Entity<ReflectComponent> reflector, Entity<ProjectileComponent> projectile)
     {
-        if (
             // Is it on?
             !reflector.Comp.Enabled ||
             // Is the projectile deflectable?
@@ -153,7 +143,8 @@ public sealed class ReflectSystem : EntitySystem
             // Does the deflector deflect the type of projecitle?
             (reflector.Comp.Reflects & reflective.Reflective) == 0x0 ||
             // Is the projectile correctly set up with physics?
-            !TryComp<PhysicsComponent>(projectile, out var physics) ||
+            !_random.Prob(reflect.ReflectProb) ||
+            !TryComp<PhysicsComponent>(projectile, out var physics))
             // If the user of the reflector is a mob with stamina, is it capable of deflecting?
             TryComp<StaminaComponent>(user, out var staminaComponent) && staminaComponent.Critical ||
             _standing.IsDown(reflector)
@@ -194,6 +185,21 @@ public sealed class ReflectSystem : EntitySystem
         return true;
     }
 
+    private void OnReflectHitscan(EntityUid uid, ReflectComponent component, ref HitScanReflectAttemptEvent args)
+    {
+        if (args.Reflected ||
+            (component.Reflects & args.Reflective) == 0x0)
+        {
+            return;
+        }
+
+        if (TryReflectHitscan(uid, uid, args.Shooter, args.SourceItem, args.Direction, out var dir))
+        {
+            args.Direction = dir.Value;
+            args.Reflected = true;
+        }
+    }
+
     private bool TryReflectHitscan(
         EntityUid user,
         Entity<ReflectComponent> reflector,
@@ -212,7 +218,7 @@ public sealed class ReflectSystem : EntitySystem
             newDirection = null;
             return false;
         }
-
+      
         // If this dice roll fails, the shot is not deflected.
         if (!_random.Prob(GetReflectChance(reflector)))
         {
@@ -221,6 +227,7 @@ public sealed class ReflectSystem : EntitySystem
         }
 
         // Below handles what happens after being deflected.
+
         if (_netManager.IsServer)
         {
             _popup.PopupEntity(Loc.GetString("reflect-shot"), user);
@@ -271,7 +278,7 @@ public sealed class ReflectSystem : EntitySystem
             return;
 
         EnsureComp<ReflectUserComponent>(args.Equipee);
-
+        
         if (reflector.Comp.Enabled)
             EnableAlert(args.Equipee);
     }
@@ -287,7 +294,7 @@ public sealed class ReflectSystem : EntitySystem
             return;
 
         EnsureComp<ReflectUserComponent>(args.User);
-
+        
         if (reflector.Comp.Enabled)
             EnableAlert(args.User);
     }
@@ -322,22 +329,9 @@ public sealed class ReflectSystem : EntitySystem
                 continue;
 
             EnsureComp<ReflectUserComponent>(user);
-            EnableAlert(user);
-
             return;
         }
 
         RemCompDeferred<ReflectUserComponent>(user);
-        DisableAlert(user);
-    }
-
-    private void EnableAlert(EntityUid alertee)
-    {
-        _alerts.ShowAlert(alertee, DeflectingAlert);
-    }
-
-    private void DisableAlert(EntityUid alertee)
-    {
-        _alerts.ClearAlert(alertee, DeflectingAlert);
     }
 }
