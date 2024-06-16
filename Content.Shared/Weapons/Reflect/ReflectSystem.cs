@@ -138,9 +138,7 @@ public sealed class ReflectSystem : EntitySystem
             !TryComp<ReflectiveComponent>(projectile.Item1, out var reflective) ||
             (reflector.Reflects & reflective.Reflective) == 0 ||
             !_random.Prob(reflector.ReflectProb) ||
-            !TryComp<PhysicsComponent>(projectile.Item1, out var physics) ||
-            (TryComp<StaminaComponent>(user, out var staminaComponent) && staminaComponent.Critical) ||
-            _physics.IsDown(reflectorUid))
+            !TryComp<PhysicsComponent>(projectile.Item1, out var physics))
         {
             return false;
         }
@@ -179,9 +177,7 @@ public sealed class ReflectSystem : EntitySystem
     private bool TryReflectHitscan(EntityUid user, EntityUid reflectorUid, EntityUid? shooter, EntityUid shotSource, Vector2 direction, [NotNullWhen(true)] out Vector2? newDirection)
     {
         if (!TryComp<ReflectComponent>(reflectorUid, out var reflector) ||
-            !reflector.Enabled ||
-            (TryComp<StaminaComponent>(user, out var staminaComponent) && staminaComponent.Critical) ||
-            _physics.IsDown(reflectorUid))
+            !reflector.Enabled)
         {
             newDirection = null;
             return false;
@@ -218,17 +214,7 @@ public sealed class ReflectSystem : EntitySystem
         if (reflector.Innate)
             return reflector.ReflectProb;
 
-        if (_physics.IsWeightless(reflectorUid))
-            return reflector.MinReflectProb;
-
-        if (!TryComp<PhysicsComponent>(reflectorUid, out var reflectorPhysics))
-            return reflector.ReflectProb;
-
-        return MathHelper.Lerp(
-            reflector.MinReflectProb,
-            reflector.ReflectProb,
-            1 - Math.Clamp((reflectorPhysics.LinearVelocity.Length() - reflector.VelocityBeforeNotMaxProb) / (reflector.VelocityBeforeMinProb - reflector.VelocityBeforeNotMaxProb), 0, 1)
-        );
+        return reflector.ReflectProb;
     }
 
     private void OnReflectEquipped(EntityUid uid, ReflectComponent reflector, GotEquippedEvent args)
