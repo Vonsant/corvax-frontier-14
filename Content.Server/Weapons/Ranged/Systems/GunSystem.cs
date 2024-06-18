@@ -2,6 +2,7 @@ using System.Linq;
 using System.Numerics;
 using Content.Server.Cargo.Systems;
 using Content.Server.Interaction;
+using Content.Server.Mech.Equipment.Components; // Corvax-Frontier
 using Content.Server.Power.EntitySystems;
 using Content.Server.Projectiles;
 using Content.Server.Stunnable;
@@ -11,6 +12,7 @@ using Content.Shared.Damage.Systems;
 using Content.Shared.Database;
 using Content.Shared.Effects;
 using Content.Shared.Interaction.Components;
+using Content.Shared.Mech.Equipment.Components; // Corvax-Frontier
 using Content.Shared.Projectiles;
 using Content.Shared.Weapons.Melee;
 using Content.Shared.Weapons.Ranged;
@@ -130,6 +132,7 @@ public sealed partial class GunSystem : SharedGunSystem
 
                     result = true;
                     Dirty(ent!.Value, cartridge);
+                    
                     break;
                 // Ammo shoots itself
                 case AmmoComponent newAmmo:

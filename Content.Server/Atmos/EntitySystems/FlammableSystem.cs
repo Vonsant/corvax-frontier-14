@@ -12,6 +12,7 @@ using Content.Shared.Atmos.Components;
 using Content.Shared.Damage;
 using Content.Shared.Database;
 using Content.Shared.Interaction;
+using Content.Shared.Mech.Components; // Corvax-Frontier
 using Content.Shared.Physics;
 using Content.Shared.Popups;
 using Content.Shared.Projectiles;
@@ -313,6 +314,11 @@ namespace Content.Server.Atmos.EntitySystems
         {
             if (!Resolve(uid, ref flammable))
                 return;
+
+            // Corvax-Frontier addition start.
+            if (TryComp<MechPilotComponent>(uid, out var mechPilot) && TryComp<MechComponent>(mechPilot.Mech, out var mech) && mech.Airtight)
+                return;
+            // Corvax-Frontier addition end.
 
             if (flammable.AlwaysCombustible)
             {
