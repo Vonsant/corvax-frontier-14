@@ -30,9 +30,10 @@ public abstract class SharedGrapplingGunSystem : EntitySystem
     [Dependency] private readonly SharedPhysicsSystem _physics = default!;
 
     public const string GrapplingJoint = "grappling";
+    
     public const float ReelRate = 2.5f;
-    public const float MaxGrappleDistance = 20.0f; // Maximum distance for the grappling hook
-    public const float ExtendRate = 2.5f; // Rate for extending the grapple
+    public const float MaxGrappleDistance = 20.0f; // Maximum distance for the grappling hook - Corvax Frontier
+    public const float ExtendRate = 2.5f; // Rate for extending the grapple - Corvax Frontier
 
     public override void Initialize()
     {
@@ -59,6 +60,7 @@ public abstract class SharedGrapplingGunSystem : EntitySystem
         {
             if (!HasComp<GrapplingProjectileComponent>(shotUid))
                 continue;
+                
             //todo: this doesn't actually support multigrapple
             // At least show the visuals.
             component.Projectile = shotUid.Value;
@@ -186,7 +188,7 @@ public abstract class SharedGrapplingGunSystem : EntitySystem
                 continue;
             }
 
-            // TODO: This should be on engine.
+            // Corvax Frontier start
             var localTransform = Transform(uid); // Use the transform of the entity holding the grappling gun
             var hookTransform = Transform(joint.BodyBUid);
             var distanceBetween = (localTransform.Coordinates.Position - hookTransform.Coordinates.Position).Length();
@@ -199,7 +201,7 @@ public abstract class SharedGrapplingGunSystem : EntitySystem
             {
                 distance.MaxLength = MathF.Min(MaxGrappleDistance, distance.MaxLength + ExtendRate * frameTime);
             }
-
+            // Corvax Frontier end
             distance.Length = MathF.Min(distance.MaxLength, distance.Length);
 
             _physics.WakeBody(joint.BodyAUid);
@@ -226,7 +228,7 @@ public abstract class SharedGrapplingGunSystem : EntitySystem
 
         var jointComp = EnsureComp<JointComponent>(uid);
         var joint = _joints.CreateDistanceJoint(uid, args.Weapon, anchorA: new Vector2(0f, 0.5f), id: GrapplingJoint);
-        joint.MaxLength = MaxGrappleDistance; // Set the initial maximum distance to the defined maximum
+        joint.MaxLength = MaxGrappleDistance; // Set the initial maximum distance to the defined maximum - Corvax Frontier
         joint.Stiffness = 1f;
         joint.MinLength = 0.35f;
         // Setting velocity directly for mob movement fucks this so need to make them aware of it.
