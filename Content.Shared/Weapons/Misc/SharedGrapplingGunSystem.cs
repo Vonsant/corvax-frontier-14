@@ -59,7 +59,8 @@ public abstract class SharedGrapplingGunSystem : EntitySystem
         {
             if (!HasComp<GrapplingProjectileComponent>(shotUid))
                 continue;
-
+            //todo: this doesn't actually support multigrapple
+            // At least show the visuals.
             component.Projectile = shotUid.Value;
             Dirty(uid, component);
             var visuals = EnsureComp<JointVisualsComponent>(shotUid.Value);
