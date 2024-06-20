@@ -171,6 +171,7 @@ public abstract class SharedGrapplingGunSystem : EntitySystem
             {
                 if (Timing.IsFirstTimePredicted)
                 {
+                    // Just in case.
                     grappling.Stream = _audio.Stop(grappling.Stream);
                 }
 
@@ -185,6 +186,7 @@ public abstract class SharedGrapplingGunSystem : EntitySystem
                 continue;
             }
 
+            // TODO: This should be on engine.
             var localTransform = Transform(uid); // Use the transform of the entity holding the grappling gun
             var hookTransform = Transform(joint.BodyBUid);
             var distanceBetween = (localTransform.Coordinates.Position - hookTransform.Coordinates.Position).Length();
@@ -216,6 +218,8 @@ public abstract class SharedGrapplingGunSystem : EntitySystem
             }
         }
     }
+        // Setting velocity directly for mob movement fucks this so need to make them aware of it.
+        // joint.Breakpoint = 4000f;
 
     private void OnGrappleCollide(EntityUid uid, GrapplingProjectileComponent component, ref ProjectileEmbedEvent args)
     {
