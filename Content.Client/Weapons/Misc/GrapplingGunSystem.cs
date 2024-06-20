@@ -21,6 +21,8 @@ public sealed class GrapplingGunSystem : SharedGrapplingGunSystem
     {
         base.Update(frameTime);
 
+        // Oh boy another input handler.
+        // If someone thinks of a better way to unify this please tell me.
         if (!Timing.IsFirstTimePredicted)
             return;
 
