@@ -31,7 +31,7 @@ public abstract class SharedGrapplingGunSystem : EntitySystem
 
     public const string GrapplingJoint = "grappling";
     public const float ReelRate = 2.5f;
-    public const float MaxGrappleDistance = 10.0f; // Maximum distance for the grappling hook
+    public const float MaxGrappleDistance = 20.0f; // Maximum distance for the grappling hook
     public const float ExtendRate = 2.5f; // Rate for extending the grapple
 
     public override void Initialize()
