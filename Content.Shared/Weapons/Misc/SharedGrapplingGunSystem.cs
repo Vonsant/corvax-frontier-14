@@ -218,8 +218,6 @@ public abstract class SharedGrapplingGunSystem : EntitySystem
             }
         }
     }
-        // Setting velocity directly for mob movement fucks this so need to make them aware of it.
-        // joint.Breakpoint = 4000f;
 
     private void OnGrappleCollide(EntityUid uid, GrapplingProjectileComponent component, ref ProjectileEmbedEvent args)
     {
@@ -231,6 +229,8 @@ public abstract class SharedGrapplingGunSystem : EntitySystem
         joint.MaxLength = MaxGrappleDistance; // Set the initial maximum distance to the defined maximum
         joint.Stiffness = 1f;
         joint.MinLength = 0.35f;
+        // Setting velocity directly for mob movement fucks this so need to make them aware of it.
+        // joint.Breakpoint = 4000f;
         Dirty(uid, jointComp);
     }
 
