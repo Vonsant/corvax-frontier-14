@@ -21,8 +21,6 @@ public sealed class GrapplingGunSystem : SharedGrapplingGunSystem
     {
         base.Update(frameTime);
 
-        // Oh boy another input handler.
-        // If someone thinks of a better way to unify this please tell me.
         if (!Timing.IsFirstTimePredicted)
             return;
 
@@ -38,9 +36,6 @@ public sealed class GrapplingGunSystem : SharedGrapplingGunSystem
         {
             return;
         }
-
-        if (distance.MaxLength <= distance.MinLength)
-            return;
 
         var reelKey = _input.CmdStates.GetState(EngineKeyFunctions.UseSecondary) == BoundKeyState.Down;
 
