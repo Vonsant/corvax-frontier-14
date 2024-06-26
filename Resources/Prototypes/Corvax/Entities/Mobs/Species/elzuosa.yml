@@ -41,8 +41,7 @@
     shockTime: 2
   - type: PointLight
     enabled: true
-    radius: 2.3
-  - type: ElzuosaColor
+    radius: 2
   - type: InteractionPopup
     successChance: 1
     interactSuccessString: pat-success-elzuosa
