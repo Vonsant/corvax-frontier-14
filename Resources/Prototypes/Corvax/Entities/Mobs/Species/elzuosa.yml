@@ -41,9 +41,8 @@
     shockTime: 2
   - type: PointLight
     enabled: true
-    radius: 2
-  - type: RgbLightController
-    cycleRate: 0.01
+    radius: 2.3
+  - type: ElzuosaColor
   - type: InteractionPopup
     successChance: 1
     interactSuccessString: pat-success-elzuosa
