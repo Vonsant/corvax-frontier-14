@@ -121,7 +121,8 @@ public sealed class NfAdventureRuleSystem : GameRuleSystem<AdventureRuleComponen
 
     private void OnStartup(RoundStartingEvent ev)
     {
-        var Charlie = "/Maps/CorvaxFrontier/POI/charlie.yml";//Corvax-Frontier
+        var repeaterEpsilon = "/Maps/CorvaxFrontier/POI/epsilon.yml";//Corvax-Frontier
+        var charlie = "/Maps/CorvaxFrontier/POI/charlie.yml";//Corvax-Frontier
         var depotMap = "/Maps/_NF/POI/cargodepot.yml";
         var tinnia = "/Maps/_NF/POI/tinnia.yml";
         var caseys = "/Maps/_NF/POI/caseyscasino.yml";
@@ -135,6 +136,7 @@ public sealed class NfAdventureRuleSystem : GameRuleSystem<AdventureRuleComponen
         var church = "Maps/_NF/POI/beacon.yml";
         var grifty = "Maps/_NF/POI/grifty.yml";
         var nfsdStation = "/Maps/_NF/POI/nfsd.yml";
+        var trade = "/Maps/_NF/POI/trade.yml";
         var depotColor = new Color(55, 200, 55);
         var civilianColor = new Color(55, 55, 200);
         var lpbravoColor = new Color(200, 55, 55);
@@ -143,6 +145,8 @@ public sealed class NfAdventureRuleSystem : GameRuleSystem<AdventureRuleComponen
         var depotOffset = _random.NextVector2(8000f, 10000f); // А раньше было 3000 и 5000. Удачи с поисками.
         var tinniaOffset = _random.NextVector2(1100f, 2800f);
         var caseysOffset = _random.NextVector2(2250f, 4600f);
+        var tradeOffset = _random.NextVector2(1500f, 2500f);
+        var repeaterOffset = _random.NextVector2(2150f, 4850f);
 
         if (_map.TryLoad(mapId, depotMap, out var depotUids, new MapLoadOptions
             {
@@ -217,9 +221,9 @@ public sealed class NfAdventureRuleSystem : GameRuleSystem<AdventureRuleComponen
             _shuttle.AddIFFFlag(lpbravoUids[0], IFFFlags.HideLabel);
         }
 // Corvax-Frontier spawns sindipost Charlie
-        if (_map.TryLoad(mapId, Charlie, out var lpcharlieUids, new MapLoadOptions
+        if (_map.TryLoad(mapId, charlie, out var lpcharlieUids, new MapLoadOptions
             {
-                Offset = _random.NextVector2(6150f, 10650f)
+                Offset = _random.NextVector2(8150f, 12650f)
             }))
         {
             if (_prototypeManager.TryIndex<GameMapPrototype>("charlie", out var stationProto))
@@ -232,6 +236,38 @@ public sealed class NfAdventureRuleSystem : GameRuleSystem<AdventureRuleComponen
             _shuttle.SetIFFColor(lpcharlieUids[0], lpbravoColor);
             _shuttle.AddIFFFlag(lpcharlieUids[0], IFFFlags.HideLabel);
         }
+// Corvax-Frontier spawns repeater Epsilon and Ipsilon (syndicate)
+        if (_map.TryLoad(mapId, repeaterEpsilon, out var rEpslieUids, new MapLoadOptions
+            {
+                Offset = repeaterOffset
+            }))
+        {
+            if (_prototypeManager.TryIndex<GameMapPrototype>("epsilon", out var stationProto))
+            {
+                _station.InitializeNewStation(stationProto.Stations["epsilon"], rEpslieUids);
+            }
+
+            var meta = EnsureComp<MetaDataComponent>(rEpslieUids[0]);
+            _meta.SetEntityName(rEpslieUids[0], "Ретранслятор Эпсилон", meta);
+            _shuttle.SetIFFColor(rEpslieUids[0], lpbravoColor);
+            _shuttle.AddIFFFlag(rEpslieUids[0], IFFFlags.HideLabel);
+        }
+        if (_map.TryLoad(mapId, repeaterEpsilon, out var rEpslieUids2, new MapLoadOptions
+            {
+                Offset = -repeaterOffset
+            }))
+        {
+            if (_prototypeManager.TryIndex<GameMapPrototype>("epsilon", out var stationProto))
+            {
+                _station.InitializeNewStation(stationProto.Stations["epsilon"], rEpslieUids2);
+            }
+
+            var meta = EnsureComp<MetaDataComponent>(rEpslieUids2[0]);
+            _meta.SetEntityName(rEpslieUids2[0], "Ретранслятор Ипсилон", meta);
+            _shuttle.SetIFFColor(rEpslieUids2[0], lpbravoColor);
+            _shuttle.AddIFFFlag(rEpslieUids2[0], IFFFlags.HideLabel);
+        }
+
         // if (_map.TryLoad(mapId, northpole, out var northpoleUids, new MapLoadOptions
         //     {
         //         Offset = _random.NextVector2(2150f, 3900f)
@@ -323,6 +359,20 @@ public sealed class NfAdventureRuleSystem : GameRuleSystem<AdventureRuleComponen
             _shuttle.SetIFFColor(labUids[0], factionColor);
         }
 
+        if (_map.TryLoad(mapId, trade, out var tradeUids, new MapLoadOptions
+        {
+            Offset = -tradeOffset
+        }))
+        {
+            if (_prototypeManager.TryIndex<GameMapPrototype>("Trade", out var stationProto))
+            {
+                _station.InitializeNewStation(stationProto.Stations["Trade"], tradeUids);
+            }
+            var meta = EnsureComp<MetaDataComponent>(tradeUids[0]);
+            _meta.SetEntityName(tradeUids[0], "Торговый Аванпост", meta);
+            _shuttle.SetIFFColor(tradeUids[0], depotColor);
+        }
+
         var dungenTypes = _prototypeManager.EnumeratePrototypes<DungeonConfigPrototype>();
 
         foreach (var dunGen in dungenTypes)
@@ -330,7 +380,7 @@ public sealed class NfAdventureRuleSystem : GameRuleSystem<AdventureRuleComponen
 
             var seed = _random.Next();
             var offset = _random.NextVector2(3000f, 8500f);
-            if (!_map.TryLoad(mapId, "/Maps/spaceplatform.yml", out var grids, new MapLoadOptions
+            if (!_map.TryLoad(mapId, "/Maps/_NF/Dungeon/spaceplatform.yml", out var grids, new MapLoadOptions
                 {
                     Offset = offset
                 }))

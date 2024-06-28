@@ -10,7 +10,7 @@
   alwaysUseSpawner: true
   hideConsoleVisibility: true
   canBeAntag: true
-  icon: "JobIconMercenary" 
+  icon: "JobIconPirate" # Corvax-Frontier
   supervisors: job-supervisors-hire
   setPreference: true
   accessGroups:
@@ -30,3 +30,5 @@
     shoes: ClothingShoesBootsLaceup
     belt: ClothingBeltUtility
     pocket1: AppraisalTool
+  inhand:
+    - BaseSecurityUplinkPirateCrew
