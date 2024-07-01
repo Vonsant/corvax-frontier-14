@@ -25,6 +25,8 @@ entities:
   entities:
   - uid: 1
     components:
+    - type: VoidContainer
+    - type: ProtectedGrid
     - type: MetaData
       name: Nfsd
     - type: Transform
